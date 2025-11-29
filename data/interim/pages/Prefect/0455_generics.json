@@ -1,0 +1,6 @@
+{
+  "title": "generics",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-utilities-generics",
+  "content": "# `prefect.utilities.generics`\n\n## Functions\n\n### `validate_list` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/utilities/generics.py#L17\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nvalidate_list(model: type[T], input: Any) -> list[T]\n```",
+  "content_length": 331
+}

@@ -1,0 +1,6 @@
+{
+  "title": "List Message Batches",
+  "source_url": "https://docs.claude.com/en/api/listing-message-batches",
+  "content": "get /v1/messages/batches\nList all Message Batches within a Workspace. Most recently created batches are returned first.\n\nLearn more about the Message Batches API in our [user guide](/en/docs/build-with-claude/batch-processing)",
+  "content_length": 226
+}

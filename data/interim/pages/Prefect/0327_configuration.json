@@ -1,0 +1,6 @@
+{
+  "title": "configuration",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-models-configuration",
+  "content": "# `prefect.server.models.configuration`\n\n## Functions\n\n### `write_configuration` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/models/configuration.py#L11\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nwrite_configuration(db: PrefectDBInterface, session: AsyncSession, configuration: schemas.core.Configuration) -> orm_models.Configuration\n```\n\n### `read_configuration` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/models/configuration.py#L38\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nread_configuration(db: PrefectDBInterface, session: AsyncSession, key: str) -> Optional[schemas.core.Configuration]\n```",
+  "content_length": 804
+}

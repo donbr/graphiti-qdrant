@@ -1,0 +1,6 @@
+{
+  "title": "csrf_token",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-api-csrf_token",
+  "content": "# `prefect.server.api.csrf_token`\n\n## Functions\n\n### `create_csrf_token` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/csrf_token.py#L22\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\ncreate_csrf_token(db: PrefectDBInterface = Depends(provide_database_interface), client: str = Query(..., description='The client to create a CSRF token for')) -> schemas.core.CsrfToken\n```\n\nCreate or update a CSRF token for a client",
+  "content_length": 517
+}

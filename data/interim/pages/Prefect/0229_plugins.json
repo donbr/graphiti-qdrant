@@ -1,0 +1,6 @@
+{
+  "title": "plugins",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-plugins",
+  "content": "# `prefect.plugins`\n\nUtilities for loading plugins that extend Prefect's functionality.\n\nPlugins are detected by entry point definitions in package setup files.\n\nCurrently supported entrypoints:\n\n* prefect.collections: Identifies this package as a Prefect collection that\n  should be imported when Prefect is imported.\n\n## Functions\n\n### `safe_load_entrypoints` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/plugins.py#L20\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nsafe_load_entrypoints(entrypoints: EntryPoints) -> dict[str, Union[Exception, Any]]\n```\n\nLoad entry points for a group capturing any exceptions that occur.\n\n### `load_prefect_collections` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/plugins.py#L43\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nload_prefect_collections() -> dict[str, Union[ModuleType, Exception]]\n```\n\nLoad all Prefect collections that define an entrypoint in the group\n`prefect.collections`.",
+  "content_length": 1111
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Update Deployment Schedule",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/update-deployment-schedule",
+  "content": "patch /api/deployments/{id}/schedules/{schedule_id}",
+  "content_length": 51
+}

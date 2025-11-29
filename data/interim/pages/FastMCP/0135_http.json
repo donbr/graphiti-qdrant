@@ -1,0 +1,6 @@
+{
+  "title": "http",
+  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-http",
+  "content": "# `fastmcp.utilities.http`\n\n## Functions\n\n### `find_available_port` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/utilities/http.py#L4\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\nfind_available_port() -> int\n```\n\nFind an available port by letting the OS assign one.",
+  "content_length": 402
+}

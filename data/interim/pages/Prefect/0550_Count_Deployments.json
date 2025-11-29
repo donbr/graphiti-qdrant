@@ -1,0 +1,6 @@
+{
+  "title": "Count Deployments",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/count-deployments",
+  "content": "post /api/deployments/count\nCount deployments.",
+  "content_length": 46
+}

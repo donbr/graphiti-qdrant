@@ -1,0 +1,6 @@
+{
+  "title": "",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/cli/event",
+  "content": "# `prefect event`\n\n```command  theme={null}\nprefect event [OPTIONS] COMMAND [ARGS]...\n```\n\n<Info>\n  Stream events.\n</Info>\n\n## `prefect event stream`\n\n```command  theme={null}\nprefect event stream [OPTIONS]\n```\n\n<Info>\n  Subscribes to the event stream of a workspace, printing each event\n  as it is received. By default, events are printed as JSON, but can be\n  printed as text by passing `--format text`.\n</Info>\n\n<AccordionGroup>\n  <Accordion title=\"Options\" defaultOpen>\n    <ResponseField name=\"--format\">\n      Output format (json or text)\n    </ResponseField>\n\n    <ResponseField name=\"--output-file\">\n      File to write events to\n    </ResponseField>\n\n    <ResponseField name=\"--account\">\n      Stream events for entire account, including audit logs\n    </ResponseField>\n\n    <ResponseField name=\"--run-once\">\n      Stream only one event\n    </ResponseField>\n  </Accordion>\n</AccordionGroup>",
+  "content_length": 899
+}

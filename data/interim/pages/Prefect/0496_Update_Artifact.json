@@ -1,0 +1,6 @@
+{
+  "title": "Update Artifact",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/artifacts/update-artifact",
+  "content": "patch /api/artifacts/{id}\nUpdate an artifact in the database.",
+  "content_length": 61
+}

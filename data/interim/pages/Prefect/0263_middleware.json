@@ -1,0 +1,6 @@
+{
+  "title": "middleware",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-api-middleware",
+  "content": "# `prefect.server.api.middleware`\n\n## Classes\n\n### `CsrfMiddleware` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/middleware.py#L15\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\nMiddleware for CSRF protection. This middleware will check for a CSRF token\nin the headers of any POST, PUT, PATCH, or DELETE request. If the token is\nnot present or does not match the token stored in the database for the\nclient, the request will be rejected with a 403 status code.\n\n**Methods:**\n\n#### `dispatch` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/middleware.py#L23\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\ndispatch(self, request: Request, call_next: NextMiddlewareFunction) -> Response\n```\n\nDispatch method for the middleware. This method will check for the\npresence of a CSRF token in the headers of the request and compare it\nto the token stored in the database for the client. If the token is not\npresent or does not match, the request will be rejected with a 403\nstatus code.",
+  "content_length": 1155
+}

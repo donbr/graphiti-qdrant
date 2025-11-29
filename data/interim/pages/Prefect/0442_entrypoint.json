@@ -1,0 +1,6 @@
+{
+  "title": "entrypoint",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-types-entrypoint",
+  "content": "# `prefect.types.entrypoint`\n\n## Classes\n\n### `EntrypointType` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/types/entrypoint.py#L4\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\nEnum representing a entrypoint type.\n\nFile path entrypoints are in the format: `path/to/file.py:function_name`.\nModule path entrypoints are in the format: `path.to.module.function_name`.",
+  "content_length": 431
+}

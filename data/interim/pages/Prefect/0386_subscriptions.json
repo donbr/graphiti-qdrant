@@ -1,0 +1,6 @@
+{
+  "title": "subscriptions",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-utilities-subscriptions",
+  "content": "# `prefect.server.utilities.subscriptions`\n\n## Functions\n\n### `accept_prefect_socket` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/utilities/subscriptions.py#L19\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\naccept_prefect_socket(websocket: WebSocket) -> Optional[WebSocket]\n```\n\n### `still_connected` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/utilities/subscriptions.py#L85\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nstill_connected(websocket: WebSocket) -> bool\n```\n\nChecks that a client websocket still seems to be connected during a period where\nthe server is expected to be sending messages.",
+  "content_length": 800
+}

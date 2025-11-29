@@ -1,0 +1,6 @@
+{
+  "title": "Create Flow Run From Deployment",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/create-flow-run-from-deployment",
+  "content": "post /api/deployments/{id}/create_flow_run\nCreate a flow run from a deployment.\n\nAny parameters not provided will be inferred from the deployment's parameters.\nIf tags are not provided, the deployment's tags will be used.\n\nIf no state is provided, the flow run will be created in a SCHEDULED state.",
+  "content_length": 298
+}

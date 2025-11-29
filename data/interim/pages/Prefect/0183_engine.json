@@ -1,0 +1,6 @@
+{
+  "title": "engine",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-engine",
+  "content": "# `prefect.engine`\n\n## Functions\n\n### `handle_engine_signals` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/engine.py#L32\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nhandle_engine_signals(flow_run_id: UUID | None = None)\n```\n\nHandle signals from the orchestrator to abort or pause the flow run or otherwise\nhandle unexpected exceptions.\n\nThis context manager will handle exiting the process depending on the signal received.\n\n**Args:**\n\n* `flow_run_id`: The ID of the flow run to handle signals for.",
+  "content_length": 592
+}

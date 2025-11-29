@@ -1,0 +1,6 @@
+{
+  "title": "Perform Readiness Check",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/root/perform-readiness-check",
+  "content": "get /api/ready",
+  "content_length": 14
+}

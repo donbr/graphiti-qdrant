@@ -1,0 +1,6 @@
+{
+  "title": "Read Deployment Schedules",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/read-deployment-schedules",
+  "content": "get /api/deployments/{id}/schedules",
+  "content_length": 35
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Delete Block Document",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-documents/delete-block-document",
+  "content": "delete /api/block_documents/{id}",
+  "content_length": 32
+}

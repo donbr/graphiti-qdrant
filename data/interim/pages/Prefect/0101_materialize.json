@@ -1,0 +1,6 @@
+{
+  "title": "materialize",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-assets-materialize",
+  "content": "# `prefect.assets.materialize`\n\n## Functions\n\n### `materialize` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/assets/materialize.py#L17\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nmaterialize(*assets: Union[str, Asset], **task_kwargs: Unpack[TaskOptions]) -> Callable[[Callable[P, R]], MaterializingTask[P, R]]\n```\n\nDecorator for materializing assets.\n\n**Args:**\n\n* `*assets`: Assets to materialize\n* `by`: An optional tool that is ultimately responsible for materializing the asset e.g. \"dbt\" or \"spark\"\n* `**task_kwargs`: Additional task configuration",
+  "content_length": 646
+}

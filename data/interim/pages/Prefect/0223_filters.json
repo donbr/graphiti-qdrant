@@ -1,0 +1,6 @@
+{
+  "title": "filters",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-logging-filters",
+  "content": "# `prefect.logging.filters`\n\n## Functions\n\n### `redact_substr` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/logging/filters.py#L8\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nredact_substr(obj: Any, substr: str) -> Any\n```\n\nRedact a string from a potentially nested object.\n\n**Args:**\n\n* `obj`: The object to redact the string from\n* `substr`: The string to redact.\n\n**Returns:**\n\n* The object with the API key redacted.\n\n## Classes\n\n### `ObfuscateApiKeyFilter` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/logging/filters.py#L29\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\nA logging filter that obfuscates any string that matches the obfuscate\\_string function.\n\n**Methods:**\n\n#### `filter` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/logging/filters.py#L34\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nfilter(self, record: logging.LogRecord) -> bool\n```",
+  "content_length": 1112
+}

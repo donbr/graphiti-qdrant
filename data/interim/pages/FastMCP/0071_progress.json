@@ -1,0 +1,6 @@
+{
+  "title": "progress",
+  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-progress",
+  "content": "# `fastmcp.client.progress`\n\n## Functions\n\n### `default_progress_handler` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/client/progress.py#L12\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\ndefault_progress_handler(progress: float, total: float | None, message: str | None) -> None\n```\n\nDefault handler for progress notifications.\n\nLogs progress updates at debug level, properly handling missing total or message values.\n\n**Args:**\n\n* `progress`: Current progress value\n* `total`: Optional total expected value\n* `message`: Optional status message",
+  "content_length": 681
+}

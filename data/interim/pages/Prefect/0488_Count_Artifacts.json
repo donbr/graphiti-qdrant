@@ -1,0 +1,6 @@
+{
+  "title": "Count Artifacts",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/artifacts/count-artifacts",
+  "content": "post /api/artifacts/count\nCount artifacts from the database.",
+  "content_length": 60
+}

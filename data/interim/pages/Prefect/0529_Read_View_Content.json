@@ -1,0 +1,6 @@
+{
+  "title": "Read View Content",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/collections/read-view-content",
+  "content": "get /api/collections/views/{view}\nReads the content of a view from the prefect-collection-registry.",
+  "content_length": 99
+}

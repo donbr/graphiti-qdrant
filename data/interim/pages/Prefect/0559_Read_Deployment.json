@@ -1,0 +1,6 @@
+{
+  "title": "Read Deployment",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/read-deployment",
+  "content": "get /api/deployments/{id}\nGet a deployment by id.",
+  "content_length": 49
+}

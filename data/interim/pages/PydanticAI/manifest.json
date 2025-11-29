@@ -1,0 +1,772 @@
+{
+  "source": "PydanticAI",
+  "input_file": "/home/donbr/graphiti-qdrant/data/raw/PydanticAI/llms-full.txt",
+  "pattern_type": "header_only",
+  "page_count": 127,
+  "total_content_chars": 3648590,
+  "avg_page_size": 28729.055118110235,
+  "pages": [
+    {
+      "index": 0,
+      "title": "Pydantic AI",
+      "source_url": null,
+      "content_length": 174
+    },
+    {
+      "index": 1,
+      "title": "Introduction",
+      "source_url": null,
+      "content_length": 0
+    },
+    {
+      "index": 2,
+      "title": "Pydantic AI",
+      "source_url": null,
+      "content_length": 20543
+    },
+    {
+      "index": 3,
+      "title": "Getting Help",
+      "source_url": null,
+      "content_length": 626
+    },
+    {
+      "index": 4,
+      "title": "Installation",
+      "source_url": null,
+      "content_length": 5766
+    },
+    {
+      "index": 5,
+      "title": "Troubleshooting",
+      "source_url": null,
+      "content_length": 1438
+    },
+    {
+      "index": 6,
+      "title": "Concepts documentation",
+      "source_url": null,
+      "content_length": 0
+    },
+    {
+      "index": 7,
+      "title": "Agent2Agent (A2A) Protocol",
+      "source_url": null,
+      "content_length": 70723
+    },
+    {
+      "index": 8,
+      "title": "Built-in Tools",
+      "source_url": null,
+      "content_length": 33573
+    },
+    {
+      "index": 9,
+      "title": "Common Tools",
+      "source_url": null,
+      "content_length": 10934
+    },
+    {
+      "index": 10,
+      "title": "Deferred Tools",
+      "source_url": null,
+      "content_length": 27273
+    },
+    {
+      "index": 11,
+      "title": "Dependencies",
+      "source_url": null,
+      "content_length": 16820
+    },
+    {
+      "index": 12,
+      "title": "Direct Model Requests",
+      "source_url": null,
+      "content_length": 4795
+    },
+    {
+      "index": 13,
+      "title": "Image, Audio, Video & Document Input",
+      "source_url": null,
+      "content_length": 7200
+    },
+    {
+      "index": 14,
+      "title": "Messages and chat history",
+      "source_url": null,
+      "content_length": 30226
+    },
+    {
+      "index": 15,
+      "title": "Multi-agent Applications",
+      "source_url": null,
+      "content_length": 61806
+    },
+    {
+      "index": 16,
+      "title": "HTTP Request Retries",
+      "source_url": null,
+      "content_length": 12055
+    },
+    {
+      "index": 17,
+      "title": "Thinking",
+      "source_url": null,
+      "content_length": 6992
+    },
+    {
+      "index": 18,
+      "title": "Third-Party Tools",
+      "source_url": null,
+      "content_length": 4928
+    },
+    {
+      "index": 19,
+      "title": "Advanced Tool Features",
+      "source_url": null,
+      "content_length": 16667
+    },
+    {
+      "index": 20,
+      "title": "Function Tools",
+      "source_url": null,
+      "content_length": 13743
+    },
+    {
+      "index": 21,
+      "title": "Toolsets",
+      "source_url": null,
+      "content_length": 30814
+    },
+    {
+      "index": 22,
+      "title": "Models",
+      "source_url": null,
+      "content_length": 0
+    },
+    {
+      "index": 23,
+      "title": "Anthropic",
+      "source_url": null,
+      "content_length": 13587
+    },
+    {
+      "index": 24,
+      "title": "Bedrock",
+      "source_url": null,
+      "content_length": 5290
+    },
+    {
+      "index": 25,
+      "title": "Cohere",
+      "source_url": null,
+      "content_length": 1859
+    },
+    {
+      "index": 26,
+      "title": "Google",
+      "source_url": null,
+      "content_length": 8879
+    },
+    {
+      "index": 27,
+      "title": "Groq",
+      "source_url": null,
+      "content_length": 1961
+    },
+    {
+      "index": 28,
+      "title": "Hugging Face",
+      "source_url": null,
+      "content_length": 3383
+    },
+    {
+      "index": 29,
+      "title": "Mistral",
+      "source_url": null,
+      "content_length": 1952
+    },
+    {
+      "index": 30,
+      "title": "OpenAI",
+      "source_url": null,
+      "content_length": 24107
+    },
+    {
+      "index": 31,
+      "title": "OpenRouter",
+      "source_url": null,
+      "content_length": 1922
+    },
+    {
+      "index": 32,
+      "title": "Outlines",
+      "source_url": null,
+      "content_length": 8479
+    },
+    {
+      "index": 33,
+      "title": "Model Providers",
+      "source_url": null,
+      "content_length": 10536
+    },
+    {
+      "index": 34,
+      "title": "Graphs",
+      "source_url": null,
+      "content_length": 0
+    },
+    {
+      "index": 35,
+      "title": "Graphs",
+      "source_url": null,
+      "content_length": 45487
+    },
+    {
+      "index": 36,
+      "title": "API Reference",
+      "source_url": null,
+      "content_length": 0
+    },
+    {
+      "index": 37,
+      "title": "`pydantic_ai.ag_ui`",
+      "source_url": null,
+      "content_length": 32007
+    },
+    {
+      "index": 38,
+      "title": "`pydantic_ai.agent`",
+      "source_url": null,
+      "content_length": 376831
+    },
+    {
+      "index": 39,
+      "title": "`pydantic_ai.builtin_tools`",
+      "source_url": null,
+      "content_length": 18503
+    },
+    {
+      "index": 40,
+      "title": "`pydantic_ai.common_tools`",
+      "source_url": null,
+      "content_length": 1974
+    },
+    {
+      "index": 41,
+      "title": "`pydantic_ai.direct`",
+      "source_url": null,
+      "content_length": 25221
+    },
+    {
+      "index": 42,
+      "title": "`pydantic_ai.durable_exec`",
+      "source_url": null,
+      "content_length": 336035
+    },
+    {
+      "index": 43,
+      "title": "`pydantic_ai.exceptions`",
+      "source_url": null,
+      "content_length": 9740
+    },
+    {
+      "index": 44,
+      "title": "`pydantic_ai.ext`",
+      "source_url": null,
+      "content_length": 4809
+    },
+    {
+      "index": 45,
+      "title": "`fasta2a`",
+      "source_url": null,
+      "content_length": 64360
+    },
+    {
+      "index": 46,
+      "title": "`pydantic_ai.format_prompt`",
+      "source_url": null,
+      "content_length": 4303
+    },
+    {
+      "index": 47,
+      "title": "`pydantic_ai.mcp`",
+      "source_url": null,
+      "content_length": 65933
+    },
+    {
+      "index": 48,
+      "title": "`pydantic_ai.messages`",
+      "source_url": null,
+      "content_length": 115624
+    },
+    {
+      "index": 49,
+      "title": "`pydantic_ai.output`",
+      "source_url": null,
+      "content_length": 18239
+    },
+    {
+      "index": 50,
+      "title": "`pydantic_ai.profiles`",
+      "source_url": null,
+      "content_length": 29485
+    },
+    {
+      "index": 51,
+      "title": "`pydantic_ai.providers`",
+      "source_url": null,
+      "content_length": 128633
+    },
+    {
+      "index": 52,
+      "title": "`pydantic_ai.result`",
+      "source_url": null,
+      "content_length": 52490
+    },
+    {
+      "index": 53,
+      "title": "`pydantic_ai.retries`",
+      "source_url": null,
+      "content_length": 25123
+    },
+    {
+      "index": 54,
+      "title": "`pydantic_ai.run`",
+      "source_url": null,
+      "content_length": 37654
+    },
+    {
+      "index": 55,
+      "title": "`pydantic_ai.settings`",
+      "source_url": null,
+      "content_length": 6651
+    },
+    {
+      "index": 56,
+      "title": "`pydantic_ai.tools`",
+      "source_url": null,
+      "content_length": 39465
+    },
+    {
+      "index": 57,
+      "title": "`pydantic_ai.toolsets`",
+      "source_url": null,
+      "content_length": 73109
+    },
+    {
+      "index": 58,
+      "title": "`pydantic_ai.usage`",
+      "source_url": null,
+      "content_length": 24189
+    },
+    {
+      "index": 59,
+      "title": "`pydantic_ai.models.anthropic`",
+      "source_url": null,
+      "content_length": 61666
+    },
+    {
+      "index": 60,
+      "title": "`pydantic_ai.models`",
+      "source_url": null,
+      "content_length": 45239
+    },
+    {
+      "index": 61,
+      "title": "`pydantic_ai.models.bedrock`",
+      "source_url": null,
+      "content_length": 40983
+    },
+    {
+      "index": 62,
+      "title": "`pydantic_ai.models.cohere`",
+      "source_url": null,
+      "content_length": 13939
+    },
+    {
+      "index": 63,
+      "title": "pydantic_ai.models.fallback",
+      "source_url": null,
+      "content_length": 9987
+    },
+    {
+      "index": 64,
+      "title": "`pydantic_ai.models.function`",
+      "source_url": null,
+      "content_length": 21602
+    },
+    {
+      "index": 65,
+      "title": "`pydantic_ai.models.google`",
+      "source_url": null,
+      "content_length": 37318
+    },
+    {
+      "index": 66,
+      "title": "`pydantic_ai.models.groq`",
+      "source_url": null,
+      "content_length": 28906
+    },
+    {
+      "index": 67,
+      "title": "`pydantic_ai.models.huggingface`",
+      "source_url": null,
+      "content_length": 18988
+    },
+    {
+      "index": 68,
+      "title": "pydantic_ai.models.instrumented",
+      "source_url": null,
+      "content_length": 30952
+    },
+    {
+      "index": 69,
+      "title": "pydantic_ai.models.mcp_sampling",
+      "source_url": null,
+      "content_length": 4267
+    },
+    {
+      "index": 70,
+      "title": "`pydantic_ai.models.mistral`",
+      "source_url": null,
+      "content_length": 34746
+    },
+    {
+      "index": 71,
+      "title": "`pydantic_ai.models.openai`",
+      "source_url": null,
+      "content_length": 97900
+    },
+    {
+      "index": 72,
+      "title": "`pydantic_ai.models.openrouter`",
+      "source_url": null,
+      "content_length": 21498
+    },
+    {
+      "index": 73,
+      "title": "`pydantic_ai.models.outlines`",
+      "source_url": null,
+      "content_length": 39044
+    },
+    {
+      "index": 74,
+      "title": "`pydantic_ai.models.test`",
+      "source_url": null,
+      "content_length": 17704
+    },
+    {
+      "index": 75,
+      "title": "pydantic_ai.models.wrapper",
+      "source_url": null,
+      "content_length": 2392
+    },
+    {
+      "index": 76,
+      "title": "`pydantic_evals.dataset`",
+      "source_url": null,
+      "content_length": 69989
+    },
+    {
+      "index": 77,
+      "title": "`pydantic_evals.evaluators`",
+      "source_url": null,
+      "content_length": 54882
+    },
+    {
+      "index": 78,
+      "title": "`pydantic_evals.generation`",
+      "source_url": null,
+      "content_length": 4932
+    },
+    {
+      "index": 79,
+      "title": "`pydantic_evals.otel`",
+      "source_url": null,
+      "content_length": 35595
+    },
+    {
+      "index": 80,
+      "title": "`pydantic_evals.reporting`",
+      "source_url": null,
+      "content_length": 62132
+    },
+    {
+      "index": 81,
+      "title": "`pydantic_graph.beta`",
+      "source_url": null,
+      "content_length": 78149
+    },
+    {
+      "index": 82,
+      "title": "`pydantic_graph.beta.decision`",
+      "source_url": null,
+      "content_length": 23408
+    },
+    {
+      "index": 83,
+      "title": "`pydantic_graph.beta.graph`",
+      "source_url": null,
+      "content_length": 37232
+    },
+    {
+      "index": 84,
+      "title": "`pydantic_graph.beta.graph_builder`",
+      "source_url": null,
+      "content_length": 51423
+    },
+    {
+      "index": 85,
+      "title": "`pydantic_graph.beta.join`",
+      "source_url": null,
+      "content_length": 13154
+    },
+    {
+      "index": 86,
+      "title": "`pydantic_graph.beta.node`",
+      "source_url": null,
+      "content_length": 4481
+    },
+    {
+      "index": 87,
+      "title": "`pydantic_graph.beta.step`",
+      "source_url": null,
+      "content_length": 16832
+    },
+    {
+      "index": 88,
+      "title": "`pydantic_graph.exceptions`",
+      "source_url": null,
+      "content_length": 3097
+    },
+    {
+      "index": 89,
+      "title": "`pydantic_graph`",
+      "source_url": null,
+      "content_length": 74127
+    },
+    {
+      "index": 90,
+      "title": "`pydantic_graph.mermaid`",
+      "source_url": null,
+      "content_length": 14476
+    },
+    {
+      "index": 91,
+      "title": "`pydantic_graph.nodes`",
+      "source_url": null,
+      "content_length": 12425
+    },
+    {
+      "index": 92,
+      "title": "`pydantic_graph.persistence`",
+      "source_url": null,
+      "content_length": 35388
+    },
+    {
+      "index": 93,
+      "title": "`pydantic_ai.ui.ag_ui`",
+      "source_url": null,
+      "content_length": 36347
+    },
+    {
+      "index": 94,
+      "title": "`pydantic_ai.ui`",
+      "source_url": null,
+      "content_length": 102557
+    },
+    {
+      "index": 95,
+      "title": "`pydantic_ai.ui.vercel_ai`",
+      "source_url": null,
+      "content_length": 42755
+    },
+    {
+      "index": 96,
+      "title": "Evals",
+      "source_url": null,
+      "content_length": 0
+    },
+    {
+      "index": 97,
+      "title": "Pydantic Evals",
+      "source_url": null,
+      "content_length": 12279
+    },
+    {
+      "index": 98,
+      "title": "Durable Execution",
+      "source_url": null,
+      "content_length": 0
+    },
+    {
+      "index": 99,
+      "title": "Durable Execution with DBOS",
+      "source_url": null,
+      "content_length": 8803
+    },
+    {
+      "index": 100,
+      "title": "Durable Execution",
+      "source_url": null,
+      "content_length": 686
+    },
+    {
+      "index": 101,
+      "title": "Durable Execution with Prefect",
+      "source_url": null,
+      "content_length": 14935
+    },
+    {
+      "index": 102,
+      "title": "Durable Execution with Temporal",
+      "source_url": null,
+      "content_length": 16961
+    },
+    {
+      "index": 103,
+      "title": "MCP",
+      "source_url": null,
+      "content_length": 0
+    },
+    {
+      "index": 104,
+      "title": "Client",
+      "source_url": null,
+      "content_length": 32674
+    },
+    {
+      "index": 105,
+      "title": "FastMCP Client",
+      "source_url": null,
+      "content_length": 4691
+    },
+    {
+      "index": 106,
+      "title": "Model Context Protocol (MCP)",
+      "source_url": null,
+      "content_length": 1979
+    },
+    {
+      "index": 107,
+      "title": "Server",
+      "source_url": null,
+      "content_length": 5263
+    },
+    {
+      "index": 108,
+      "title": "UI Event Streams",
+      "source_url": null,
+      "content_length": 0
+    },
+    {
+      "index": 109,
+      "title": "Agent-User Interaction (AG-UI) Protocol",
+      "source_url": null,
+      "content_length": 16897
+    },
+    {
+      "index": 110,
+      "title": "UI Event Streams",
+      "source_url": null,
+      "content_length": 7171
+    },
+    {
+      "index": 111,
+      "title": "Vercel AI Data Stream Protocol",
+      "source_url": null,
+      "content_length": 6322
+    },
+    {
+      "index": 112,
+      "title": "Optional",
+      "source_url": null,
+      "content_length": 0
+    },
+    {
+      "index": 113,
+      "title": "Upgrade Guide",
+      "source_url": null,
+      "content_length": 7358
+    },
+    {
+      "index": 114,
+      "title": "Command Line Interface (CLI)",
+      "source_url": null,
+      "content_length": 7165
+    },
+    {
+      "index": 115,
+      "title": "Pydantic Logfire Debugging and Monitoring",
+      "source_url": null,
+      "content_length": 20606
+    },
+    {
+      "index": 116,
+      "title": "Unit testing",
+      "source_url": null,
+      "content_length": 15629
+    },
+    {
+      "index": 117,
+      "title": "Examples",
+      "source_url": null,
+      "content_length": 0
+    },
+    {
+      "index": 118,
+      "title": "Agent User Interaction (AG-UI)",
+      "source_url": null,
+      "content_length": 35783
+    },
+    {
+      "index": 119,
+      "title": "Chat App with FastAPI",
+      "source_url": null,
+      "content_length": 21630
+    },
+    {
+      "index": 120,
+      "title": "Data Analyst",
+      "source_url": null,
+      "content_length": 26445
+    },
+    {
+      "index": 121,
+      "title": "Pydantic Model",
+      "source_url": null,
+      "content_length": 1675
+    },
+    {
+      "index": 122,
+      "title": "Question Graph",
+      "source_url": null,
+      "content_length": 11153
+    },
+    {
+      "index": 123,
+      "title": "RAG",
+      "source_url": null,
+      "content_length": 18287
+    },
+    {
+      "index": 124,
+      "title": "Examples",
+      "source_url": null,
+      "content_length": 2191
+    },
+    {
+      "index": 125,
+      "title": "Slack Lead Qualifier with Modal",
+      "source_url": null,
+      "content_length": 27323
+    },
+    {
+      "index": 126,
+      "title": "SQL Generation",
+      "source_url": null,
+      "content_length": 29256
+    }
+  ]
+}

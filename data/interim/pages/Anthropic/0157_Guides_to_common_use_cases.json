@@ -1,0 +1,6 @@
+{
+  "title": "Guides to common use cases",
+  "source_url": "https://docs.claude.com/en/docs/about-claude/use-case-guides/overview",
+  "content": "Claude is designed to excel in a variety of tasks. Explore these in-depth production guides to learn how to build common use cases with Claude.\n\n<CardGroup cols={2}>\n  <Card title=\"Ticket routing\" icon=\"headset\" href=\"/en/docs/about-claude/use-case-guides/ticket-routing\">\n    Best practices for using Claude to classify and route customer support tickets at scale.\n  </Card>\n\n  <Card title=\"Customer support agent\" icon=\"robot\" href=\"/en/docs/about-claude/use-case-guides/customer-support-chat\">\n    Build intelligent, context-aware chatbots with Claude to enhance customer support interactions.\n  </Card>\n\n  <Card title=\"Content moderation\" icon=\"shield-check\" href=\"/en/docs/about-claude/use-case-guides/content-moderation\">\n    Techniques and best practices for using Claude to perform content filtering and general content moderation.\n  </Card>\n\n  <Card title=\"Legal summarization\" icon=\"book\" href=\"/en/docs/about-claude/use-case-guides/legal-summarization\">\n    Summarize legal documents using Claude to extract key information and expedite research.\n  </Card>\n</CardGroup>",
+  "content_length": 1080
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Update Variable By Name",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/variables/update-variable-by-name",
+  "content": "patch /api/variables/name/{name}",
+  "content_length": 32
+}

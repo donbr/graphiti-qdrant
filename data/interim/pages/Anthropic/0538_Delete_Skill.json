@@ -1,0 +1,6 @@
+{
+  "title": "Delete Skill",
+  "source_url": "https://docs.claude.com/en/api/skills/delete-skill",
+  "content": "delete /v1/skills/{skill_id}",
+  "content_length": 28
+}

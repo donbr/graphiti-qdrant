@@ -1,0 +1,6 @@
+{
+  "title": "Create Database",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/admin/create-database",
+  "content": "post /api/admin/database/create\nCreate all database objects.",
+  "content_length": 60
+}

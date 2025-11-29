@@ -1,0 +1,6 @@
+{
+  "title": "Delete Artifact",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/artifacts/delete-artifact",
+  "content": "delete /api/artifacts/{id}\nDelete an artifact from the database.",
+  "content_length": 64
+}

@@ -1,0 +1,6 @@
+{
+  "title": "List Skills",
+  "source_url": "https://docs.claude.com/en/api/skills/list-skills",
+  "content": "get /v1/skills",
+  "content_length": 14
+}

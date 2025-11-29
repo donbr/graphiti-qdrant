@@ -1,0 +1,6 @@
+{
+  "title": "Validate Template",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/automations/validate-template",
+  "content": "post /api/templates/validate",
+  "content_length": 28
+}

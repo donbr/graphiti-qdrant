@@ -1,0 +1,6 @@
+{
+  "title": "Create Block Type",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-types/create-block-type",
+  "content": "post /api/block_types/\nCreate a new block type.\n\nFor more information, see https://docs.prefect.io/v3/concepts/blocks.",
+  "content_length": 118
+}

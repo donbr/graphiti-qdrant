@@ -1,0 +1,6 @@
+{
+  "title": "Update Work Queue",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/work-pools/update-work-queue",
+  "content": "patch /api/work_pools/{work_pool_name}/queues/{name}\nUpdate a work pool queue",
+  "content_length": 77
+}

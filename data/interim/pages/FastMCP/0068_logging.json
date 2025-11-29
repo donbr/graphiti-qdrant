@@ -1,0 +1,6 @@
+{
+  "title": "logging",
+  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-logging",
+  "content": "# `fastmcp.client.logging`\n\n## Functions\n\n### `default_log_handler` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/client/logging.py#L17\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\ndefault_log_handler(message: LogMessage) -> None\n```\n\nDefault handler that properly routes server log messages to appropriate log levels.\n\n### `create_log_callback` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/client/logging.py#L47\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\ncreate_log_callback(handler: LogHandler | None = None) -> LoggingFnT\n```",
+  "content_length": 803
+}

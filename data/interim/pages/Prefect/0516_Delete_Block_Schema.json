@@ -1,0 +1,6 @@
+{
+  "title": "Delete Block Schema",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-schemas/delete-block-schema",
+  "content": "delete /api/block_schemas/{id}\nDelete a block schema by id.",
+  "content_length": 59
+}

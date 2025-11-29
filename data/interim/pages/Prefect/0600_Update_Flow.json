@@ -1,0 +1,6 @@
+{
+  "title": "Update Flow",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/flows/update-flow",
+  "content": "patch /api/flows/{id}\nUpdates a flow.",
+  "content_length": 37
+}

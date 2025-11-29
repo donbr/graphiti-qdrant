@@ -1,0 +1,6 @@
+{
+  "title": "shared",
+  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-cli-install-shared",
+  "content": "# `fastmcp.cli.install.shared`\n\nShared utilities for install commands.\n\n## Functions\n\n### `parse_env_var` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/cli/install/shared.py#L18\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\nparse_env_var(env_var: str) -> tuple[str, str]\n```\n\nParse environment variable string in format KEY=VALUE.\n\n### `process_common_args` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/cli/install/shared.py#L29\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\nprocess_common_args(server_spec: str, server_name: str | None, with_packages: list[str] | None, env_vars: list[str] | None, env_file: Path | None) -> tuple[Path, str | None, str, list[str], dict[str, str] | None]\n```\n\nProcess common arguments shared by all install commands.\n\nHandles both fastmcp.json config files and traditional file.py:object syntax.",
+  "content_length": 1099
+}

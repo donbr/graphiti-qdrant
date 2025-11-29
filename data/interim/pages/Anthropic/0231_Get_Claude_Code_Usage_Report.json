@@ -1,0 +1,6 @@
+{
+  "title": "Get Claude Code Usage Report",
+  "source_url": "https://docs.claude.com/en/api/admin-api/claude-code/get-claude-code-usage-report",
+  "content": "get /v1/organizations/usage_report/claude_code\nRetrieve daily aggregated usage metrics for Claude Code users.\nEnables organizations to analyze developer productivity and build custom dashboards.\n\n<Tip>\n  **The Admin API is unavailable for individual accounts.** To collaborate with teammates and add members, set up your organization in **Console → Settings → Organization**.\n</Tip>",
+  "content_length": 382
+}

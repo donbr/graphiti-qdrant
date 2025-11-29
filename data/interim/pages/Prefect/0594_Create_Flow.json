@@ -1,0 +1,6 @@
+{
+  "title": "Create Flow",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/flows/create-flow",
+  "content": "post /api/flows/\nCreates a new flow from the provided schema. If a flow with the\nsame name already exists, the existing flow is returned.\n\nFor more information, see https://docs.prefect.io/v3/concepts/flows.",
+  "content_length": 207
+}

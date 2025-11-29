@@ -1,0 +1,6 @@
+{
+  "title": "task_workers",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-api-task_workers",
+  "content": "# `prefect.server.api.task_workers`\n\n## Functions\n\n### `read_task_workers` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/task_workers.py#L18\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nread_task_workers(task_worker_filter: Optional[TaskWorkerFilter] = Body(default=None, description='The task worker filter', embed=True)) -> List[TaskWorkerResponse]\n```\n\nRead active task workers. Optionally filter by task keys.\n\nFor more information, see [https://docs.prefect.io/v3/how-to-guides/workflows/run-background-tasks](https://docs.prefect.io/v3/how-to-guides/workflows/run-background-tasks).\n\n## Classes\n\n### `TaskWorkerFilter` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/task_workers.py#L13\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>",
+  "content_length": 916
+}

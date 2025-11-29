@@ -1,0 +1,6 @@
+{
+  "title": "Document transformers",
+  "source_url": "https://docs.langchain.com/oss/javascript/integrations/document_transformers/index",
+  "content": "<Columns cols={3}>\n  <Card title=\"html-to-text\" icon=\"link\" href=\"/oss/javascript/integrations/document_transformers/html-to-text\" arrow=\"true\" cta=\"View guide\" />\n\n  <Card title=\"mozilla/readability\" icon=\"link\" href=\"/oss/javascript/integrations/document_transformers/mozilla_readability\" arrow=\"true\" cta=\"View guide\" />\n\n  <Card title=\"OpenAI functions metadata tagger\" icon=\"link\" href=\"/oss/javascript/integrations/document_transformers/openai_metadata_tagger\" arrow=\"true\" cta=\"View guide\" />\n</Columns>\n\n***\n\n<Callout icon=\"pen-to-square\" iconType=\"regular\">\n  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/javascript/integrations/document_transformers/index.mdx)\n</Callout>\n\n<Tip icon=\"terminal\" iconType=\"regular\">\n  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.\n</Tip>",
+  "content_length": 898
+}

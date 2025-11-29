@@ -1,0 +1,6 @@
+{
+  "title": "Read Automations Related To Resource",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/automations/read-automations-related-to-resource",
+  "content": "get /api/automations/related-to/{resource_id}",
+  "content_length": 45
+}

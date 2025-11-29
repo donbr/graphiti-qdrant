@@ -1,0 +1,6 @@
+{
+  "title": "templates",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-api-templates",
+  "content": "# `prefect.server.api.templates`\n\n## Functions\n\n### `validate_template` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/templates.py#L24\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nvalidate_template(template: str = Body(default='')) -> Response\n```",
+  "content_length": 350
+}

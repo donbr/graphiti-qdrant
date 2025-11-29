@@ -1,0 +1,6 @@
+{
+  "title": "collections",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-client-collections",
+  "content": "# `prefect.client.collections`\n\n## Functions\n\n### `get_collections_metadata_client` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/client/collections.py#L17\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nget_collections_metadata_client(httpx_settings: Optional[Dict[str, Any]] = None) -> 'CollectionsMetadataClient'\n```\n\nCreates a client that can be used to fetch metadata for\nPrefect collections.\n\nWill return a `CloudClient` if profile is set to connect\nto Prefect Cloud, otherwise will return an `OrchestrationClient`.\n\n## Classes\n\n### `CollectionsMetadataClient` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/client/collections.py#L9\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n**Methods:**\n\n#### `read_worker_metadata` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/client/collections.py#L10\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nread_worker_metadata(self) -> Dict[str, Any]\n```",
+  "content_length": 1139
+}

@@ -1,0 +1,6 @@
+{
+  "title": "List Workspaces",
+  "source_url": "https://docs.claude.com/en/api/admin-api/workspaces/list-workspaces",
+  "content": "get /v1/organizations/workspaces",
+  "content_length": 32
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Concepts",
+  "source_url": "https://docs-3.prefect.io/v3/concepts/index",
+  "content": "## Sections\n\n<CardGroup cols={3}>\n  <Card title=\"Workflows\" icon=\"play\" href=\"/v3/concepts/flows\">\n    Learn about the core concepts for building and running workflows.\n  </Card>\n\n  <Card title=\"Deployments\" icon=\"rocket\" href=\"/v3/concepts/deployments\">\n    Learn about the concepts behind deploying and executing workflows.\n  </Card>\n\n  <Card title=\"Configuration\" icon=\"gears\" href=\"/v3/concepts/variables\">\n    Learn about configuring your Prefect environment and workflows.\n  </Card>\n\n  <Card title=\"Automations\" icon=\"robot\" href=\"/v3/concepts/events\">\n    Learn about events, triggers, and automations.\n  </Card>\n\n  <Card title=\"Prefect Cloud\" icon=\"cloud\" href=\"/v3/concepts/rate-limits\">\n    Learn about Prefect Cloud-specific concepts and features.\n  </Card>\n</CardGroup>",
+  "content_length": 781
+}

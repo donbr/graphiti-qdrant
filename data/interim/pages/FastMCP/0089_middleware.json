@@ -1,0 +1,6 @@
+{
+  "title": "middleware",
+  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-middleware",
+  "content": "# `fastmcp.server.auth.middleware`\n\nEnhanced authentication middleware with better error messages.\n\nThis module provides enhanced versions of MCP SDK authentication middleware\nthat return more helpful error messages for developers troubleshooting\nauthentication issues.\n\n## Classes\n\n### `RequireAuthMiddleware` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/server/auth/middleware.py#L22\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\nEnhanced authentication middleware with detailed error messages.\n\nExtends the SDK's RequireAuthMiddleware to provide more actionable\nerror messages when authentication fails. This helps developers\nunderstand what went wrong and how to fix it.",
+  "content_length": 739
+}

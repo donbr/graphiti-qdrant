@@ -1,0 +1,6 @@
+{
+  "title": "Read Workers",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/work-pools/read-workers",
+  "content": "post /api/work_pools/{work_pool_name}/workers/filter\nRead all worker processes",
+  "content_length": 78
+}

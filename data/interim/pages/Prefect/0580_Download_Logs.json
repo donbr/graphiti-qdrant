@@ -1,0 +1,6 @@
+{
+  "title": "Download Logs",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/flow-runs/download-logs",
+  "content": "get /api/flow_runs/{id}/logs/download\nDownload all flow run logs as a CSV file, collecting all logs until there are no more logs to retrieve.",
+  "content_length": 141
+}

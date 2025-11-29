@@ -1,0 +1,6 @@
+{
+  "title": "related",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-events-related",
+  "content": "# `prefect.events.related`\n\n## Functions\n\n### `tags_as_related_resources` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/events/related.py#L34\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\ntags_as_related_resources(tags: Iterable[str]) -> List[RelatedResource]\n```\n\n### `object_as_related_resource` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/events/related.py#L46\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nobject_as_related_resource(kind: str, role: str, object: Any) -> RelatedResource\n```\n\n### `related_resources_from_run_context` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/events/related.py#L60\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nrelated_resources_from_run_context(client: 'PrefectClient', exclude: Optional[Set[str]] = None) -> List[RelatedResource]\n```",
+  "content_length": 1050
+}

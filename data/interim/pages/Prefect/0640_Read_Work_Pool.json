@@ -1,0 +1,6 @@
+{
+  "title": "Read Work Pool",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/work-pools/read-work-pool",
+  "content": "get /api/work_pools/{name}\nRead a work pool by name",
+  "content_length": 51
+}

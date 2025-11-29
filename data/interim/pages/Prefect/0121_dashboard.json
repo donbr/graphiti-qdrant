@@ -1,0 +1,6 @@
+{
+  "title": "dashboard",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-cli-dashboard",
+  "content": "# `prefect.cli.dashboard`\n\n## Functions\n\n### `open` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/cli/dashboard.py#L17\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nopen() -> None\n```\n\nOpen the Prefect UI in the browser.",
+  "content_length": 311
+}

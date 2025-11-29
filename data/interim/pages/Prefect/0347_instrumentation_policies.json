@@ -1,0 +1,6 @@
+{
+  "title": "instrumentation_policies",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-orchestration-instrumentation_policies",
+  "content": "# `prefect.server.orchestration.instrumentation_policies`\n\nOrchestration rules related to instrumenting the orchestration engine for Prefect\nObservability\n\n## Classes\n\n### `InstrumentFlowRunStateTransitions` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/orchestration/instrumentation_policies.py#L25\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\nWhen a Flow Run changes states, fire a Prefect Event for the state change\n\n**Methods:**\n\n#### `after_transition` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/orchestration/instrumentation_policies.py#L28\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nafter_transition(self, context: OrchestrationContext[orm_models.FlowRun, core.FlowRunPolicy]) -> None\n```",
+  "content_length": 874
+}

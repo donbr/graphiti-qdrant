@@ -1,0 +1,6 @@
+{
+  "title": "Read Block Schema By Checksum",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-schemas/read-block-schema-by-checksum",
+  "content": "get /api/block_schemas/checksum/{checksum}",
+  "content_length": 42
+}

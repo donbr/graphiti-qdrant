@@ -1,0 +1,6 @@
+{
+  "title": "mcp_config",
+  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_config",
+  "content": "# `fastmcp.utilities.mcp_config`\n\n## Functions\n\n### `mcp_config_to_servers_and_transports` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/utilities/mcp_config.py#L17\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\nmcp_config_to_servers_and_transports(config: MCPConfig) -> list[tuple[str, FastMCP[Any], ClientTransport]]\n```\n\nA utility function to convert each entry of an MCP Config into a transport and server.\n\n### `mcp_server_type_to_servers_and_transports` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/utilities/mcp_config.py#L27\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\nmcp_server_type_to_servers_and_transports(name: str, mcp_server: MCPServerTypes) -> tuple[str, FastMCP[Any], ClientTransport]\n```\n\nA utility function to convert each entry of an MCP Config into a transport and server.",
+  "content_length": 1066
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Renew Concurrency Lease",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/concurrency-limits-v2/renew-concurrency-lease",
+  "content": "post /api/v2/concurrency_limits/leases/{lease_id}/renew",
+  "content_length": 55
+}

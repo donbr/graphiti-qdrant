@@ -1,0 +1,6 @@
+{
+  "title": "Remove User",
+  "source_url": "https://docs.claude.com/en/api/admin-api/users/remove-user",
+  "content": "delete /v1/organizations/users/{user_id}",
+  "content_length": 40
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Health Check",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/root/health-check",
+  "content": "get /api/health",
+  "content_length": 15
+}

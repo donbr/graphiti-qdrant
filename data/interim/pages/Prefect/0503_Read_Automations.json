@@ -1,0 +1,6 @@
+{
+  "title": "Read Automations",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/automations/read-automations",
+  "content": "post /api/automations/filter",
+  "content_length": 28
+}

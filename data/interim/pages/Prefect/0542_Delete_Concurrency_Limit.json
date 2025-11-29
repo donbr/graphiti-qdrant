@@ -1,0 +1,6 @@
+{
+  "title": "Delete Concurrency Limit",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/concurrency-limits/delete-concurrency-limit",
+  "content": "delete /api/concurrency_limits/{id}",
+  "content_length": 35
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Read Variables",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/variables/read-variables",
+  "content": "post /api/variables/filter",
+  "content_length": 26
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Update Workspace Member",
+  "source_url": "https://docs.claude.com/en/api/admin-api/workspace_members/update-workspace-member",
+  "content": "post /v1/organizations/workspaces/{workspace_id}/members/{user_id}\n\n<Tip>\n  **The Admin API is unavailable for individual accounts.** To collaborate with teammates and add members, set up your organization in **Console → Settings → Organization**.\n</Tip>",
+  "content_length": 254
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Create Workspace",
+  "source_url": "https://docs.claude.com/en/api/admin-api/workspaces/create-workspace",
+  "content": "post /v1/organizations/workspaces",
+  "content_length": 33
+}

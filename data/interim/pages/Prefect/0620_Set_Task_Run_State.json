@@ -1,0 +1,6 @@
+{
+  "title": "Set Task Run State",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/task-runs/set-task-run-state",
+  "content": "post /api/task_runs/{id}/set_state\nSet a task run state, invoking any orchestration rules.",
+  "content_length": 90
+}

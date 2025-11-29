@@ -1,0 +1,6 @@
+{
+  "title": "Server API Overview",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/index",
+  "content": "The Prefect server API enables you to interact programmatically with self-hosted Prefect server.\n\nThe self-hosted Prefect server API is organized around REST.\nSelect links in the left navigation menu to explore.\n\nLearn about [self-hosting Prefect server](/v3/how-to-guides/self-hosted/server-cli).",
+  "content_length": 297
+}

@@ -1,0 +1,6 @@
+{
+  "title": "__init__",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-client-__init__",
+  "content": "# `prefect.client`\n\nAsynchronous client implementation for communicating with the [Prefect REST API](https://docs.prefect.io/v3/api-ref/rest-api/).\n\nExplore the client by communicating with an in-memory webserver - no setup required:\n\n\\<div class=\"termy\">\n\n```\n$ # start python REPL with native await functionality\n$ python -m asyncio\nfrom prefect.client.orchestration import get_client\nasync with get_client() as client:\n    response = await client.hello()\n    print(response.json())\n👋\n```\n\n\\</div>",
+  "content_length": 499
+}

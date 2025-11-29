@@ -1,0 +1,1060 @@
+{
+  "source": "FastMCP",
+  "input_file": "/home/donbr/graphiti-qdrant/data/raw/FastMCP/llms-full.txt",
+  "pattern_type": "with_url",
+  "page_count": 175,
+  "total_content_chars": 1422912,
+  "avg_page_size": 8130.925714285714,
+  "pages": [
+    {
+      "index": 0,
+      "title": "Changelog",
+      "source_url": "https://gofastmcp.com/changelog",
+      "content_length": 161470
+    },
+    {
+      "index": 1,
+      "title": "Bearer Token Authentication",
+      "source_url": "https://gofastmcp.com/clients/auth/bearer",
+      "content_length": 3178
+    },
+    {
+      "index": 2,
+      "title": "OAuth Authentication",
+      "source_url": "https://gofastmcp.com/clients/auth/oauth",
+      "content_length": 6743
+    },
+    {
+      "index": 3,
+      "title": "The FastMCP Client",
+      "source_url": "https://gofastmcp.com/clients/client",
+      "content_length": 12091
+    },
+    {
+      "index": 4,
+      "title": "User Elicitation",
+      "source_url": "https://gofastmcp.com/clients/elicitation",
+      "content_length": 5461
+    },
+    {
+      "index": 5,
+      "title": "Server Logging",
+      "source_url": "https://gofastmcp.com/clients/logging",
+      "content_length": 4226
+    },
+    {
+      "index": 6,
+      "title": "Message Handling",
+      "source_url": "https://gofastmcp.com/clients/messages",
+      "content_length": 4744
+    },
+    {
+      "index": 7,
+      "title": "Progress Monitoring",
+      "source_url": "https://gofastmcp.com/clients/progress",
+      "content_length": 1976
+    },
+    {
+      "index": 8,
+      "title": "Prompts",
+      "source_url": "https://gofastmcp.com/clients/prompts",
+      "content_length": 7693
+    },
+    {
+      "index": 9,
+      "title": "Resource Operations",
+      "source_url": "https://gofastmcp.com/clients/resources",
+      "content_length": 7133
+    },
+    {
+      "index": 10,
+      "title": "Client Roots",
+      "source_url": "https://gofastmcp.com/clients/roots",
+      "content_length": 1371
+    },
+    {
+      "index": 11,
+      "title": "LLM Sampling",
+      "source_url": "https://gofastmcp.com/clients/sampling",
+      "content_length": 5325
+    },
+    {
+      "index": 12,
+      "title": "Tool Operations",
+      "source_url": "https://gofastmcp.com/clients/tools",
+      "content_length": 11067
+    },
+    {
+      "index": 13,
+      "title": "Client Transports",
+      "source_url": "https://gofastmcp.com/clients/transports",
+      "content_length": 13621
+    },
+    {
+      "index": 14,
+      "title": "FastMCP Cloud",
+      "source_url": "https://gofastmcp.com/deployment/fastmcp-cloud",
+      "content_length": 9785
+    },
+    {
+      "index": 15,
+      "title": "HTTP Deployment",
+      "source_url": "https://gofastmcp.com/deployment/http",
+      "content_length": 25645
+    },
+    {
+      "index": 16,
+      "title": "Running Your Server",
+      "source_url": "https://gofastmcp.com/deployment/running-server",
+      "content_length": 11098
+    },
+    {
+      "index": 17,
+      "title": "Project Configuration",
+      "source_url": "https://gofastmcp.com/deployment/server-configuration",
+      "content_length": 24394
+    },
+    {
+      "index": 18,
+      "title": "Contributing",
+      "source_url": "https://gofastmcp.com/development/contributing",
+      "content_length": 8996
+    },
+    {
+      "index": 19,
+      "title": "Releases",
+      "source_url": "https://gofastmcp.com/development/releases",
+      "content_length": 4061
+    },
+    {
+      "index": 20,
+      "title": "Tests",
+      "source_url": "https://gofastmcp.com/development/tests",
+      "content_length": 14916
+    },
+    {
+      "index": 21,
+      "title": "Upgrade Guide",
+      "source_url": "https://gofastmcp.com/development/upgrade-guide",
+      "content_length": 2125
+    },
+    {
+      "index": 22,
+      "title": "Installation",
+      "source_url": "https://gofastmcp.com/getting-started/installation",
+      "content_length": 3466
+    },
+    {
+      "index": 23,
+      "title": "Quickstart",
+      "source_url": "https://gofastmcp.com/getting-started/quickstart",
+      "content_length": 5110
+    },
+    {
+      "index": 24,
+      "title": "Welcome to FastMCP 2.0!",
+      "source_url": "https://gofastmcp.com/getting-started/welcome",
+      "content_length": 7511
+    },
+    {
+      "index": 25,
+      "title": "Anthropic API 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/anthropic",
+      "content_length": 8326
+    },
+    {
+      "index": 26,
+      "title": "Auth0 OAuth 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/auth0",
+      "content_length": 10913
+    },
+    {
+      "index": 27,
+      "title": "AuthKit 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/authkit",
+      "content_length": 6587
+    },
+    {
+      "index": 28,
+      "title": "AWS Cognito OAuth 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/aws-cognito",
+      "content_length": 15548
+    },
+    {
+      "index": 29,
+      "title": "Azure (Microsoft Entra ID) OAuth 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/azure",
+      "content_length": 16068
+    },
+    {
+      "index": 30,
+      "title": "ChatGPT 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/chatgpt",
+      "content_length": 4903
+    },
+    {
+      "index": 31,
+      "title": "Claude Code 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/claude-code",
+      "content_length": 7427
+    },
+    {
+      "index": 32,
+      "title": "Claude Desktop 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/claude-desktop",
+      "content_length": 11719
+    },
+    {
+      "index": 33,
+      "title": "Cursor 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/cursor",
+      "content_length": 11636
+    },
+    {
+      "index": 34,
+      "title": "Descope 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/descope",
+      "content_length": 5411
+    },
+    {
+      "index": 35,
+      "title": "Eunomia Authorization 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/eunomia-authorization",
+      "content_length": 4912
+    },
+    {
+      "index": 36,
+      "title": "FastAPI 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/fastapi",
+      "content_length": 16336
+    },
+    {
+      "index": 37,
+      "title": "Gemini SDK 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/gemini",
+      "content_length": 3972
+    },
+    {
+      "index": 38,
+      "title": "Gemini CLI 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/gemini-cli",
+      "content_length": 7025
+    },
+    {
+      "index": 39,
+      "title": "GitHub OAuth 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/github",
+      "content_length": 9936
+    },
+    {
+      "index": 40,
+      "title": "Google OAuth 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/google",
+      "content_length": 11064
+    },
+    {
+      "index": 41,
+      "title": "MCP JSON Configuration 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/mcp-json-configuration",
+      "content_length": 11670
+    },
+    {
+      "index": 42,
+      "title": "OpenAI API 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/openai",
+      "content_length": 7866
+    },
+    {
+      "index": 43,
+      "title": "OpenAPI 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/openapi",
+      "content_length": 18529
+    },
+    {
+      "index": 44,
+      "title": "Permit.io Authorization 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/permit",
+      "content_length": 19796
+    },
+    {
+      "index": 45,
+      "title": "Scalekit 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/scalekit",
+      "content_length": 7566
+    },
+    {
+      "index": 46,
+      "title": "WorkOS 🤝 FastMCP",
+      "source_url": "https://gofastmcp.com/integrations/workos",
+      "content_length": 10465
+    },
+    {
+      "index": 47,
+      "title": "FastMCP CLI",
+      "source_url": "https://gofastmcp.com/patterns/cli",
+      "content_length": 28911
+    },
+    {
+      "index": 48,
+      "title": "Contrib Modules",
+      "source_url": "https://gofastmcp.com/patterns/contrib",
+      "content_length": 2322
+    },
+    {
+      "index": 49,
+      "title": "Decorating Methods",
+      "source_url": "https://gofastmcp.com/patterns/decorating-methods",
+      "content_length": 7782
+    },
+    {
+      "index": 50,
+      "title": "Testing your FastMCP Server",
+      "source_url": "https://gofastmcp.com/patterns/testing",
+      "content_length": 3746
+    },
+    {
+      "index": 51,
+      "title": "Tool Transformation",
+      "source_url": "https://gofastmcp.com/patterns/tool-transformation",
+      "content_length": 27180
+    },
+    {
+      "index": 52,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-cli-__init__",
+      "content_length": 37
+    },
+    {
+      "index": 53,
+      "title": "cli",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-cli-cli",
+      "content_length": 4825
+    },
+    {
+      "index": 54,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-cli-install-__init__",
+      "content_length": 76
+    },
+    {
+      "index": 55,
+      "title": "claude_code",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-cli-install-claude_code",
+      "content_length": 2430
+    },
+    {
+      "index": 56,
+      "title": "claude_desktop",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-cli-install-claude_desktop",
+      "content_length": 1999
+    },
+    {
+      "index": 57,
+      "title": "cursor",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-cli-install-cursor",
+      "content_length": 3800
+    },
+    {
+      "index": 58,
+      "title": "gemini_cli",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-cli-install-gemini_cli",
+      "content_length": 2288
+    },
+    {
+      "index": 59,
+      "title": "mcp_json",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-cli-install-mcp_json",
+      "content_length": 1667
+    },
+    {
+      "index": 60,
+      "title": "shared",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-cli-install-shared",
+      "content_length": 1099
+    },
+    {
+      "index": 61,
+      "title": "run",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-cli-run",
+      "content_length": 3515
+    },
+    {
+      "index": 62,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-__init__",
+      "content_length": 93
+    },
+    {
+      "index": 63,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-auth-__init__",
+      "content_length": 98
+    },
+    {
+      "index": 64,
+      "title": "bearer",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-auth-bearer",
+      "content_length": 555
+    },
+    {
+      "index": 65,
+      "title": "oauth",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-auth-oauth",
+      "content_length": 4480
+    },
+    {
+      "index": 66,
+      "title": "client",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-client",
+      "content_length": 23083
+    },
+    {
+      "index": 67,
+      "title": "elicitation",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-elicitation",
+      "content_length": 636
+    },
+    {
+      "index": 68,
+      "title": "logging",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-logging",
+      "content_length": 803
+    },
+    {
+      "index": 69,
+      "title": "messages",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-messages",
+      "content_length": 5649
+    },
+    {
+      "index": 70,
+      "title": "oauth_callback",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-oauth_callback",
+      "content_length": 2796
+    },
+    {
+      "index": 71,
+      "title": "progress",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-progress",
+      "content_length": 681
+    },
+    {
+      "index": 72,
+      "title": "roots",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-roots",
+      "content_length": 729
+    },
+    {
+      "index": 73,
+      "title": "sampling",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-sampling",
+      "content_length": 426
+    },
+    {
+      "index": 74,
+      "title": "transports",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-transports",
+      "content_length": 12841
+    },
+    {
+      "index": 75,
+      "title": "exceptions",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-exceptions",
+      "content_length": 2079
+    },
+    {
+      "index": 76,
+      "title": "mcp_config",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-mcp_config",
+      "content_length": 7175
+    },
+    {
+      "index": 77,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-prompts-__init__",
+      "content_length": 94
+    },
+    {
+      "index": 78,
+      "title": "prompt",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-prompts-prompt",
+      "content_length": 4577
+    },
+    {
+      "index": 79,
+      "title": "prompt_manager",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-prompts-prompt_manager",
+      "content_length": 2682
+    },
+    {
+      "index": 80,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-resources-__init__",
+      "content_length": 96
+    },
+    {
+      "index": 81,
+      "title": "resource",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-resources-resource",
+      "content_length": 5331
+    },
+    {
+      "index": 82,
+      "title": "resource_manager",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-resources-resource_manager",
+      "content_length": 6373
+    },
+    {
+      "index": 83,
+      "title": "template",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-resources-template",
+      "content_length": 7316
+    },
+    {
+      "index": 84,
+      "title": "types",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-resources-types",
+      "content_length": 4459
+    },
+    {
+      "index": 85,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-__init__",
+      "content_length": 93
+    },
+    {
+      "index": 86,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-__init__",
+      "content_length": 98
+    },
+    {
+      "index": 87,
+      "title": "auth",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-auth",
+      "content_length": 8095
+    },
+    {
+      "index": 88,
+      "title": "jwt_issuer",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-jwt_issuer",
+      "content_length": 3517
+    },
+    {
+      "index": 89,
+      "title": "middleware",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-middleware",
+      "content_length": 739
+    },
+    {
+      "index": 90,
+      "title": "oauth_proxy",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-oauth_proxy",
+      "content_length": 17749
+    },
+    {
+      "index": 91,
+      "title": "oidc_proxy",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-oidc_proxy",
+      "content_length": 3104
+    },
+    {
+      "index": 92,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-__init__",
+      "content_length": 108
+    },
+    {
+      "index": 93,
+      "title": "auth0",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-auth0",
+      "content_length": 1389
+    },
+    {
+      "index": 94,
+      "title": "aws",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-aws",
+      "content_length": 3097
+    },
+    {
+      "index": 95,
+      "title": "azure",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-azure",
+      "content_length": 3011
+    },
+    {
+      "index": 96,
+      "title": "bearer",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-bearer",
+      "content_length": 265
+    },
+    {
+      "index": 97,
+      "title": "debug",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-debug",
+      "content_length": 2160
+    },
+    {
+      "index": 98,
+      "title": "descope",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-descope",
+      "content_length": 2574
+    },
+    {
+      "index": 99,
+      "title": "github",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-github",
+      "content_length": 2311
+    },
+    {
+      "index": 100,
+      "title": "google",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-google",
+      "content_length": 2389
+    },
+    {
+      "index": 101,
+      "title": "in_memory",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-in_memory",
+      "content_length": 4706
+    },
+    {
+      "index": 102,
+      "title": "introspection",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-introspection",
+      "content_length": 2850
+    },
+    {
+      "index": 103,
+      "title": "jwt",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-jwt",
+      "content_length": 6151
+    },
+    {
+      "index": 104,
+      "title": "oci",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-oci",
+      "content_length": 4284
+    },
+    {
+      "index": 105,
+      "title": "scalekit",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-scalekit",
+      "content_length": 2485
+    },
+    {
+      "index": 106,
+      "title": "supabase",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-supabase",
+      "content_length": 2830
+    },
+    {
+      "index": 107,
+      "title": "workos",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-workos",
+      "content_length": 4450
+    },
+    {
+      "index": 108,
+      "title": "redirect_validation",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-redirect_validation",
+      "content_length": 1825
+    },
+    {
+      "index": 109,
+      "title": "context",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-context",
+      "content_length": 17284
+    },
+    {
+      "index": 110,
+      "title": "dependencies",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-dependencies",
+      "content_length": 1812
+    },
+    {
+      "index": 111,
+      "title": "elicitation",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-elicitation",
+      "content_length": 3364
+    },
+    {
+      "index": 112,
+      "title": "http",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-http",
+      "content_length": 4372
+    },
+    {
+      "index": 113,
+      "title": "low_level",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-low_level",
+      "content_length": 2266
+    },
+    {
+      "index": 114,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-middleware-__init__",
+      "content_length": 104
+    },
+    {
+      "index": 115,
+      "title": "caching",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-middleware-caching",
+      "content_length": 9858
+    },
+    {
+      "index": 116,
+      "title": "error_handling",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-middleware-error_handling",
+      "content_length": 2183
+    },
+    {
+      "index": 117,
+      "title": "logging",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-middleware-logging",
+      "content_length": 2040
+    },
+    {
+      "index": 118,
+      "title": "middleware",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-middleware-middleware",
+      "content_length": 6615
+    },
+    {
+      "index": 119,
+      "title": "rate_limiting",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-middleware-rate_limiting",
+      "content_length": 3471
+    },
+    {
+      "index": 120,
+      "title": "timing",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-middleware-timing",
+      "content_length": 4124
+    },
+    {
+      "index": 121,
+      "title": "tool_injection",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-middleware-tool_injection",
+      "content_length": 3754
+    },
+    {
+      "index": 122,
+      "title": "openapi",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-openapi",
+      "content_length": 3286
+    },
+    {
+      "index": 123,
+      "title": "proxy",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-proxy",
+      "content_length": 15023
+    },
+    {
+      "index": 124,
+      "title": "server",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-server",
+      "content_length": 38049
+    },
+    {
+      "index": 125,
+      "title": "settings",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-settings",
+      "content_length": 3795
+    },
+    {
+      "index": 126,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-tools-__init__",
+      "content_length": 92
+    },
+    {
+      "index": 127,
+      "title": "tool",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-tools-tool",
+      "content_length": 5737
+    },
+    {
+      "index": 128,
+      "title": "tool_manager",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-tools-tool_manager",
+      "content_length": 4302
+    },
+    {
+      "index": 129,
+      "title": "tool_transform",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-tools-tool_transform",
+      "content_length": 11281
+    },
+    {
+      "index": 130,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-__init__",
+      "content_length": 47
+    },
+    {
+      "index": 131,
+      "title": "auth",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-auth",
+      "content_length": 614
+    },
+    {
+      "index": 132,
+      "title": "cli",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-cli",
+      "content_length": 1874
+    },
+    {
+      "index": 133,
+      "title": "components",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-components",
+      "content_length": 4473
+    },
+    {
+      "index": 134,
+      "title": "exceptions",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-exceptions",
+      "content_length": 769
+    },
+    {
+      "index": 135,
+      "title": "http",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-http",
+      "content_length": 402
+    },
+    {
+      "index": 136,
+      "title": "inspect",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-inspect",
+      "content_length": 4894
+    },
+    {
+      "index": 137,
+      "title": "json_schema",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-json_schema",
+      "content_length": 861
+    },
+    {
+      "index": 138,
+      "title": "json_schema_type",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-json_schema_type",
+      "content_length": 3298
+    },
+    {
+      "index": 139,
+      "title": "logging",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-logging",
+      "content_length": 1996
+    },
+    {
+      "index": 140,
+      "title": "mcp_config",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_config",
+      "content_length": 1066
+    },
+    {
+      "index": 141,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_server_config-__init__",
+      "content_length": 215
+    },
+    {
+      "index": 142,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_server_config-v1-__init__",
+      "content_length": 117
+    },
+    {
+      "index": 143,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_server_config-v1-environments-__init__",
+      "content_length": 99
+    },
+    {
+      "index": 144,
+      "title": "base",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_server_config-v1-environments-base",
+      "content_length": 1377
+    },
+    {
+      "index": 145,
+      "title": "uv",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_server_config-v1-environments-uv",
+      "content_length": 1592
+    },
+    {
+      "index": 146,
+      "title": "mcp_server_config",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_server_config-v1-mcp_server_config",
+      "content_length": 9231
+    },
+    {
+      "index": 147,
+      "title": "__init__",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_server_config-v1-sources-__init__",
+      "content_length": 125
+    },
+    {
+      "index": 148,
+      "title": "base",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_server_config-v1-sources-base",
+      "content_length": 1438
+    },
+    {
+      "index": 149,
+      "title": "filesystem",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_server_config-v1-sources-filesystem",
+      "content_length": 1258
+    },
+    {
+      "index": 150,
+      "title": "openapi",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-openapi",
+      "content_length": 7480
+    },
+    {
+      "index": 151,
+      "title": "tests",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-tests",
+      "content_length": 4222
+    },
+    {
+      "index": 152,
+      "title": "types",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-types",
+      "content_length": 6805
+    },
+    {
+      "index": 153,
+      "title": "ui",
+      "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-ui",
+      "content_length": 4277
+    },
+    {
+      "index": 154,
+      "title": "Authentication",
+      "source_url": "https://gofastmcp.com/servers/auth/authentication",
+      "content_length": 17963
+    },
+    {
+      "index": 155,
+      "title": "Full OAuth Server",
+      "source_url": "https://gofastmcp.com/servers/auth/full-oauth-server",
+      "content_length": 8843
+    },
+    {
+      "index": 156,
+      "title": "OAuth Proxy",
+      "source_url": "https://gofastmcp.com/servers/auth/oauth-proxy",
+      "content_length": 31676
+    },
+    {
+      "index": 157,
+      "title": "OIDC Proxy",
+      "source_url": "https://gofastmcp.com/servers/auth/oidc-proxy",
+      "content_length": 11835
+    },
+    {
+      "index": 158,
+      "title": "Remote OAuth",
+      "source_url": "https://gofastmcp.com/servers/auth/remote-oauth",
+      "content_length": 14085
+    },
+    {
+      "index": 159,
+      "title": "Token Verification",
+      "source_url": "https://gofastmcp.com/servers/auth/token-verification",
+      "content_length": 18491
+    },
+    {
+      "index": 160,
+      "title": "Server Composition",
+      "source_url": "https://gofastmcp.com/servers/composition",
+      "content_length": 16400
+    },
+    {
+      "index": 161,
+      "title": "MCP Context",
+      "source_url": "https://gofastmcp.com/servers/context",
+      "content_length": 21627
+    },
+    {
+      "index": 162,
+      "title": "User Elicitation",
+      "source_url": "https://gofastmcp.com/servers/elicitation",
+      "content_length": 12455
+    },
+    {
+      "index": 163,
+      "title": "Icons",
+      "source_url": "https://gofastmcp.com/servers/icons",
+      "content_length": 4228
+    },
+    {
+      "index": 164,
+      "title": "Client Logging",
+      "source_url": "https://gofastmcp.com/servers/logging",
+      "content_length": 9280
+    },
+    {
+      "index": 165,
+      "title": "MCP Middleware",
+      "source_url": "https://gofastmcp.com/servers/middleware",
+      "content_length": 35242
+    },
+    {
+      "index": 166,
+      "title": "Progress Reporting",
+      "source_url": "https://gofastmcp.com/servers/progress",
+      "content_length": 6355
+    },
+    {
+      "index": 167,
+      "title": "Prompts",
+      "source_url": "https://gofastmcp.com/servers/prompts",
+      "content_length": 14937
+    },
+    {
+      "index": 168,
+      "title": "Proxy Servers",
+      "source_url": "https://gofastmcp.com/servers/proxy",
+      "content_length": 14294
+    },
+    {
+      "index": 169,
+      "title": "Resources & Templates",
+      "source_url": "https://gofastmcp.com/servers/resources",
+      "content_length": 28449
+    },
+    {
+      "index": 170,
+      "title": "LLM Sampling",
+      "source_url": "https://gofastmcp.com/servers/sampling",
+      "content_length": 10316
+    },
+    {
+      "index": 171,
+      "title": "The FastMCP Server",
+      "source_url": "https://gofastmcp.com/servers/server",
+      "content_length": 17922
+    },
+    {
+      "index": 172,
+      "title": "Storage Backends",
+      "source_url": "https://gofastmcp.com/servers/storage-backends",
+      "content_length": 10688
+    },
+    {
+      "index": 173,
+      "title": "Tools",
+      "source_url": "https://gofastmcp.com/servers/tools",
+      "content_length": 40891
+    },
+    {
+      "index": 174,
+      "title": "FastMCP Updates",
+      "source_url": "https://gofastmcp.com/updates",
+      "content_length": 19703
+    }
+  ]
+}

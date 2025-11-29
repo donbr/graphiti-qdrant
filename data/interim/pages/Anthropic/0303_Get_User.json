@@ -1,0 +1,6 @@
+{
+  "title": "Get User",
+  "source_url": "https://docs.claude.com/en/api/admin-api/users/get-user",
+  "content": "get /v1/organizations/users/{user_id}",
+  "content_length": 37
+}

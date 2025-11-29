@@ -1,0 +1,6 @@
+{
+  "title": "sync",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-concurrency-v1-sync",
+  "content": "# `prefect.concurrency.v1.sync`\n\n## Functions\n\n### `concurrency` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/concurrency/v1/sync.py#L19\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nconcurrency(names: Union[str, list[str]], task_run_id: UUID, timeout_seconds: Optional[float] = None) -> Generator[None, None, None]\n```\n\nA context manager that acquires and releases concurrency slots from the\ngiven concurrency limits.\n\n**Args:**\n\n* `names`: The names of the concurrency limits to acquire.\n* `task_run_id`: The task run ID acquiring the limits.\n* `timeout_seconds`: The number of seconds to wait to acquire the limits before\n  raising a `TimeoutError`. A timeout of `None` will wait indefinitely.\n\n**Raises:**\n\n* `TimeoutError`: If the limits are not acquired within the given timeout.\n\nExample:\nA simple example of using the sync `concurrency` context manager:\n\n```python  theme={null}\nfrom prefect.concurrency.v1.sync import concurrency\n\ndef resource_heavy():\n    with concurrency(\"test\"):\n        print(\"Resource heavy task\")\n\ndef main():\n    resource_heavy()\n```",
+  "content_length": 1158
+}

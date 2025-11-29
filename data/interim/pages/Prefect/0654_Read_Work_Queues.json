@@ -1,0 +1,6 @@
+{
+  "title": "Read Work Queues",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/work-queues/read-work-queues",
+  "content": "post /api/work_queues/filter\nQuery for work queues.",
+  "content_length": 51
+}

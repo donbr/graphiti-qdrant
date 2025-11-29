@@ -1,0 +1,6 @@
+{
+  "title": "task_run_states",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-api-task_run_states",
+  "content": "# `prefect.server.api.task_run_states`\n\nRoutes for interacting with task run state objects.\n\n## Functions\n\n### `read_task_run_state` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/task_run_states.py#L21\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nread_task_run_state(task_run_state_id: UUID = Path(..., description='The task run state id', alias='id'), db: PrefectDBInterface = Depends(provide_database_interface)) -> schemas.states.State\n```\n\nGet a task run state by id.\n\nFor more information, see [https://docs.prefect.io/v3/concepts/tasks](https://docs.prefect.io/v3/concepts/tasks).\n\n### `read_task_run_states` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/task_run_states.py#L44\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nread_task_run_states(task_run_id: UUID, db: PrefectDBInterface = Depends(provide_database_interface)) -> List[schemas.states.State]\n```\n\nGet states associated with a task run.",
+  "content_length": 1110
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Read Settings",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/admin/read-settings",
+  "content": "get /api/admin/settings\nGet the current Prefect REST API settings.\n\nSecret setting values will be obfuscated.",
+  "content_length": 109
+}

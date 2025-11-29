@@ -1,0 +1,6 @@
+{
+  "title": "How to manage teams",
+  "source_url": "https://docs-3.prefect.io/v3/how-to-guides/cloud/manage-users/manage-teams",
+  "content": "Manage teams of users in Prefect Cloud.\n\nPrefect Cloud's [Enterprise plan](https://www.prefect.io/pricing) offers team management to simplify access control governance.\n\nAccount Admins can configure teams and team membership from the account settings menu by clicking **Teams**.\nTeams are composed of users and service accounts.\nTeams can be added to workspaces or object access control lists just like users and service accounts.\n\nIf SCIM is enabled on your account, the set of teams and the users within them is governed by your IDP.\nPrefect Cloud service accounts, which are not governed by your IDP, can be still be added to your existing set of teams.\n\nSee the [Prefect Cloud plans](https://www.prefect.io/pricing) to learn more about options for supporting teams.",
+  "content_length": 769
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Read Block Document By Name For Block Type",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-types/read-block-document-by-name-for-block-type",
+  "content": "get /api/block_types/slug/{slug}/block_documents/name/{block_document_name}",
+  "content_length": 75
+}

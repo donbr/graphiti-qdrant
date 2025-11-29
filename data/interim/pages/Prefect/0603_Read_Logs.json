@@ -1,0 +1,6 @@
+{
+  "title": "Read Logs",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/logs/read-logs",
+  "content": "post /api/logs/filter\nQuery for logs.",
+  "content_length": 37
+}

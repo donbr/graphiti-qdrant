@@ -1,0 +1,6 @@
+{
+  "title": "schedules",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-deployments-schedules",
+  "content": "# `prefect.deployments.schedules`\n\n## Functions\n\n### `create_deployment_schedule_create` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/deployments/schedules.py#L18\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\ncreate_deployment_schedule_create(schedule: Union['SCHEDULE_TYPES', 'Schedule'], active: Optional[bool] = True) -> DeploymentScheduleCreate\n```\n\nCreate a DeploymentScheduleCreate object from common schedule parameters.\n\n### `normalize_to_deployment_schedule` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/deployments/schedules.py#L32\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nnormalize_to_deployment_schedule(schedules: Optional['FlexibleScheduleList']) -> List[Union[DeploymentScheduleCreate, DeploymentScheduleUpdate]]\n```",
+  "content_length": 920
+}

@@ -1,0 +1,6 @@
+{
+  "title": "docker",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-testing-docker",
+  "content": "# `prefect.testing.docker`\n\n## Functions\n\n### `capture_builders` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/testing/docker.py#L9\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\ncapture_builders() -> Generator[list[ImageBuilder], None, None]\n```\n\nCaptures any instances of ImageBuilder created while this context is active",
+  "content_length": 413
+}

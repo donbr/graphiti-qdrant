@@ -1,0 +1,6 @@
+{
+  "title": "Model caches",
+  "source_url": "https://docs.langchain.com/oss/javascript/integrations/llm_caching/index",
+  "content": "[Caching LLM calls](/oss/javascript/langchain/models#caching) can be useful for testing, cost savings, and speed.\n\nBelow are some integrations that allow you to cache results of individual LLM calls using different caches with different strategies.\n\n<Columns cols={3}>\n  <Card title=\"Azure Cosmos DB NoSQL Semantic Cache\" icon=\"link\" href=\"/oss/javascript/integrations/llm_caching/azure_cosmosdb_nosql\" arrow=\"true\" cta=\"View guide\" />\n</Columns>\n\n***\n\n<Callout icon=\"pen-to-square\" iconType=\"regular\">\n  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/javascript/integrations/llm_caching/index.mdx)\n</Callout>\n\n<Tip icon=\"terminal\" iconType=\"regular\">\n  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.\n</Tip>",
+  "content_length": 824
+}

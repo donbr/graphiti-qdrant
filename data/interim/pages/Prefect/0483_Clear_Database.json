@@ -1,0 +1,6 @@
+{
+  "title": "Clear Database",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/admin/clear-database",
+  "content": "post /api/admin/database/clear\nClear all database tables without dropping them.",
+  "content_length": 79
+}

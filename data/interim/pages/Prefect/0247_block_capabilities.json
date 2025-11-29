@@ -1,0 +1,6 @@
+{
+  "title": "block_capabilities",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-api-block_capabilities",
+  "content": "# `prefect.server.api.block_capabilities`\n\nRoutes for interacting with block capabilities.\n\n## Functions\n\n### `read_available_block_capabilities` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/block_capabilities.py#L19\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nread_available_block_capabilities(db: PrefectDBInterface = Depends(provide_database_interface)) -> List[str]\n```\n\nGet available block capabilities.\n\nFor more information, see [https://docs.prefect.io/v3/concepts/blocks](https://docs.prefect.io/v3/concepts/blocks).",
+  "content_length": 630
+}

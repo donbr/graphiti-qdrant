@@ -1,0 +1,6 @@
+{
+  "title": "collections",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-api-collections",
+  "content": "# `prefect.server.api.collections`\n\n## Functions\n\n### `read_view_content` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/collections.py#L29\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nread_view_content(view: str) -> Dict[str, Any]\n```\n\nReads the content of a view from the prefect-collection-registry.\n\n### `get_collection_view` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/collections.py#L48\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nget_collection_view(view: str) -> dict[str, Any]\n```",
+  "content_length": 697
+}

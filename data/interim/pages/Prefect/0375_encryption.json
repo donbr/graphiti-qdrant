@@ -1,0 +1,6 @@
+{
+  "title": "encryption",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-utilities-encryption",
+  "content": "# `prefect.server.utilities.encryption`\n\nEncryption utilities\n\n## Functions\n\n### `encrypt_fernet` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/utilities/encryption.py#L40\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nencrypt_fernet(session: AsyncSession, data: Mapping[str, Any]) -> str\n```\n\n### `decrypt_fernet` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/utilities/encryption.py#L46\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\ndecrypt_fernet(session: AsyncSession, data: str) -> dict[str, Any]\n```",
+  "content_length": 700
+}

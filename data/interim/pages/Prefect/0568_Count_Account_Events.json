@@ -1,0 +1,6 @@
+{
+  "title": "Count Account Events",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/events/count-account-events",
+  "content": "post /api/events/count-by/{countable}\nReturns distinct objects and the count of events associated with them.  Objects\nthat can be counted include the day the event occurred, the type of event, or\nthe IDs of the resources associated with the event.",
+  "content_length": 247
+}

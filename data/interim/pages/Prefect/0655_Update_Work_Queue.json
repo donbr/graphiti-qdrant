@@ -1,0 +1,6 @@
+{
+  "title": "Update Work Queue",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/work-queues/update-work-queue",
+  "content": "patch /api/work_queues/{id}\nUpdates an existing work queue.",
+  "content_length": 59
+}

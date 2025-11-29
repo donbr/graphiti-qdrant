@@ -1,0 +1,6 @@
+{
+  "title": "services",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-concurrency-v1-services",
+  "content": "# `prefect.concurrency.v1.services`\n\n## Classes\n\n### `ConcurrencySlotAcquisitionServiceError` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/concurrency/v1/services.py#L21\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\nRaised when an error occurs while acquiring concurrency slots.\n\n### `ConcurrencySlotAcquisitionService` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/concurrency/v1/services.py#L25\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n**Methods:**\n\n#### `acquire` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/concurrency/v1/services.py#L39\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nacquire(self, task_run_id: UUID, timeout_seconds: Optional[float] = None) -> httpx.Response\n```",
+  "content_length": 916
+}

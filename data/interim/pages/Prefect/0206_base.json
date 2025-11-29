@@ -1,0 +1,6 @@
+{
+  "title": "base",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-infrastructure-base",
+  "content": "# `prefect.infrastructure.base`\n\n2024-06-27: This surfaces an actionable error message for moved or removed objects in Prefect 3.0 upgrade.",
+  "content_length": 139
+}

@@ -1,0 +1,6 @@
+{
+  "title": "elicitation",
+  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-elicitation",
+  "content": "# `fastmcp.client.elicitation`\n\n## Functions\n\n### `create_elicitation_callback` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/client/elicitation.py#L37\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\ncreate_elicitation_callback(elicitation_handler: ElicitationHandler) -> ElicitationFnT\n```\n\n## Classes\n\n### `ElicitResult` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/client/elicitation.py#L22\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>",
+  "content_length": 636
+}

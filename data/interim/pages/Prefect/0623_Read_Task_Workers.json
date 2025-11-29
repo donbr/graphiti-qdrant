@@ -1,0 +1,6 @@
+{
+  "title": "Read Task Workers",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/task-workers/read-task-workers",
+  "content": "post /api/task_workers/filter\nRead active task workers. Optionally filter by task keys.\n\nFor more information, see https://docs.prefect.io/v3/how-to-guides/workflows/run-background-tasks.",
+  "content_length": 187
+}

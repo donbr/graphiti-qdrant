@@ -1,0 +1,6 @@
+{
+  "title": "Delete Variable By Name",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/variables/delete-variable-by-name",
+  "content": "delete /api/variables/name/{name}",
+  "content_length": 33
+}

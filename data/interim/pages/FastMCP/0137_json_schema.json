@@ -1,0 +1,6 @@
+{
+  "title": "json_schema",
+  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-json_schema",
+  "content": "# `fastmcp.utilities.json_schema`\n\n## Functions\n\n### `compress_schema` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/utilities/json_schema.py#L200\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\ncompress_schema(schema: dict, prune_params: list[str] | None = None, prune_defs: bool = True, prune_additional_properties: bool = True, prune_titles: bool = False) -> dict\n```\n\nRemove the given parameters from the schema.\n\n**Args:**\n\n* `schema`: The schema to compress\n* `prune_params`: List of parameter names to remove from properties\n* `prune_defs`: Whether to remove unused definitions\n* `prune_additional_properties`: Whether to remove additionalProperties: false\n* `prune_titles`: Whether to remove title fields from the schema",
+  "content_length": 861
+}

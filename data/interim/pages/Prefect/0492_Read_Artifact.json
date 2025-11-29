@@ -1,0 +1,6 @@
+{
+  "title": "Read Artifact",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/artifacts/read-artifact",
+  "content": "get /api/artifacts/{id}\nRetrieve an artifact from the database.",
+  "content_length": 63
+}

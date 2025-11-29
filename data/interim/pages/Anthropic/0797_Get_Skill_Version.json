@@ -1,0 +1,6 @@
+{
+  "title": "Get Skill Version",
+  "source_url": "https://docs.claude.com/en/api/skills/get-skill-version",
+  "content": "get /v1/skills/{skill_id}/versions/{version}",
+  "content_length": 44
+}

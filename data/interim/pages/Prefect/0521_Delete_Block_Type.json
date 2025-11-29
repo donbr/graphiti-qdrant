@@ -1,0 +1,6 @@
+{
+  "title": "Delete Block Type",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-types/delete-block-type",
+  "content": "delete /api/block_types/{id}",
+  "content_length": 28
+}

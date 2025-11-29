@@ -1,0 +1,6 @@
+{
+  "title": "Reference",
+  "source_url": "https://docs.langchain.com/oss/javascript/reference/overview",
+  "content": "Comprehensive API reference documentation for the LangChain and LangGraph Python and TypeScript libraries.\n\n## Reference sites\n\n<CardGroup cols={2}>\n  <Card title=\"LangChain\" icon=\"link\" href=\"https://reference.langchain.com/javascript/modules/langchain.html\">\n    Complete API reference for LangChain JavaScript/TypeScript, including chat models, tools, agents, and more.\n  </Card>\n\n  <Card title=\"LangGraph\" icon=\"diagram-project\" href=\"https://reference.langchain.com/javascript/modules/_langchain_langgraph.html\">\n    Complete API reference for LangGraph JavaScript/TypeScript, including graph APIs, state management, checkpointing, and more.\n  </Card>\n</CardGroup>\n\n***\n\n<Callout icon=\"pen-to-square\" iconType=\"regular\">\n  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/reference/overview.mdx)\n</Callout>\n\n<Tip icon=\"terminal\" iconType=\"regular\">\n  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.\n</Tip>",
+  "content_length": 1024
+}

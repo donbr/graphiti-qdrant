@@ -1,0 +1,6 @@
+{
+  "title": "subscriptions",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-client-subscriptions",
+  "content": "# `prefect.client.subscriptions`\n\n## Classes\n\n### `Subscription` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/client/subscriptions.py#L23\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n**Methods:**\n\n#### `websocket` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/client/subscriptions.py#L49\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nwebsocket(self) -> websockets.asyncio.client.ClientConnection\n```",
+  "content_length": 559
+}

@@ -1,0 +1,6 @@
+{
+  "title": "Get Usage Report for the Messages API",
+  "source_url": "https://docs.claude.com/en/api/admin-api/usage-cost/get-messages-usage-report",
+  "content": "get /v1/organizations/usage_report/messages\n\n<Tip>\n  **The Admin API is unavailable for individual accounts.** To collaborate with teammates and add members, set up your organization in **Console → Settings → Organization**.\n</Tip>",
+  "content_length": 231
+}

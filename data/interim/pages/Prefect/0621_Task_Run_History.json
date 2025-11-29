@@ -1,0 +1,6 @@
+{
+  "title": "Task Run History",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/task-runs/task-run-history",
+  "content": "post /api/task_runs/history\nQuery for task run history data across a given range and interval.",
+  "content_length": 94
+}

@@ -1,0 +1,6 @@
+{
+  "title": "__init__",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-runtime-__init__",
+  "content": "# `prefect.runtime`\n\nModule for easily accessing dynamic attributes for a given run, especially those generated from deployments.\n\nExample usage:\n\n```python  theme={null}\nfrom prefect.runtime import deployment\n\nprint(f\"This script is running from deployment {deployment.id} with parameters {deployment.parameters}\")\n```",
+  "content_length": 319
+}

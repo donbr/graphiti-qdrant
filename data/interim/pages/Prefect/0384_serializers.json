@@ -1,0 +1,6 @@
+{
+  "title": "serializers",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-utilities-schemas-serializers",
+  "content": "# `prefect.server.utilities.schemas.serializers`\n\n## Functions\n\n### `orjson_dumps` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/utilities/schemas/serializers.py#L10\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\norjson_dumps(v: Any) -> str\n```\n\nUtility for dumping a value to JSON using orjson.\n\norjson.dumps returns bytes, to match standard json.dumps we need to decode.\n\n### `orjson_dumps_extra_compatible` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/utilities/schemas/serializers.py#L19\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\norjson_dumps_extra_compatible(v: Any) -> str\n```\n\nUtility for dumping a value to JSON using orjson, but allows for\n\n1. non-string keys: this is helpful for situations like pandas dataframes,\n   which can result in non-string keys\n2. numpy types: for serializing numpy arrays\n\norjson.dumps returns bytes, to match standard json.dumps we need to decode.",
+  "content_length": 1085
+}

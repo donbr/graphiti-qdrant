@@ -1,0 +1,6 @@
+{
+  "title": "Decrement Concurrency Limits V1",
+  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/concurrency-limits/decrement-concurrency-limits-v1",
+  "content": "post /api/concurrency_limits/decrement\nDecrement concurrency limits for the given tags.\n\nFinds and revokes the lease for V2 limits or decrements V1 active slots.\nReturns the list of limits that were decremented.",
+  "content_length": 211
+}
