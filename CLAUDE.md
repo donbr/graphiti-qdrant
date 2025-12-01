@@ -4,7 +4,12 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-A Python project for downloading, processing, and loading documentation from various sources (llms.txt and llms-full.txt files) into Qdrant vector database using LangChain. The project focuses on preparing technical documentation from sources like Cursor, LangChain, Anthropic, PydanticAI, and others for vector search.
+A Python project providing semantic documentation search via a custom FastMCP server (`qdrant-docs`). The server enables semantic search over 2,670+ pre-indexed documentation pages from 7 sources (Anthropic, LangChain, Prefect, FastMCP, PydanticAI, Zep, McpProtocol) using OpenAI embeddings and Qdrant vector store.
+
+**Key Components**:
+- **MCP Server** (`mcp_server.py`) - FastMCP 2.0 server with `search_docs` and `list_sources` tools
+- **Data Pipeline** - Downloads, splits, and uploads documentation to Qdrant
+- **Test Suite** - 18 tests (11 in-memory, 7 HTTP) with 100% pass rate
 
 ## Environment Setup
 
@@ -23,10 +28,26 @@ cp .env.example .env
 ### Required Environment Variables
 - `QDRANT_API_KEY`: Your Qdrant API key
 - `QDRANT_API_URL`: Your Qdrant instance URL (e.g., https://xxxxx.us-west-1-0.aws.cloud.qdrant.io:6333)
+- `OPENAI_API_KEY`: OpenAI API key (for text-embedding-3-small)
 
 ## Common Commands
 
-### Running Scripts
+### MCP Server
+```bash
+# Run MCP server (stdio transport)
+uv run python mcp_server.py
+
+# Run HTTP server for testing
+uv run python run_http_server.py
+
+# Run in-memory tests
+uv run pytest tests/test_mcp_server.py -v
+
+# Run HTTP transport tests
+uv run python test_http_local.py
+```
+
+### Data Pipeline Scripts
 ```bash
 # Download llms.txt and llms-full.txt from all configured sources
 uv run scripts/download_llms_raw.py
@@ -37,8 +58,8 @@ uv run scripts/analyze_llms_structure.py
 # Split llms-full.txt files into individual pages/documents
 uv run scripts/split_llms_pages.py
 
-# Run main application
-uv run main.py
+# Upload split pages to Qdrant vector store
+uv run scripts/upload_to_qdrant.py
 ```
 
 ## Data Pipeline Architecture
@@ -103,16 +124,44 @@ The header-only pattern uses code block neutralization: converts `# ` inside cod
 
 ## Key Dependencies
 
+**MCP Server**:
+- **fastmcp**: FastMCP 2.0 server framework
+- **langchain-qdrant**: Qdrant vector store integration
+- **langchain-openai**: OpenAI embeddings (text-embedding-3-small)
+- **qdrant-client**: Qdrant Cloud client
+
+**Data Pipeline**:
 - **httpx**: Async HTTP client for downloading documentation
 - **langchain**: Framework for LLM applications
-- **langchain-community**: Community integrations
-- **langchain-qdrant**: Qdrant vector store integration
-- **datasets**: Hugging Face datasets library
-- **ipywidgets**: Interactive widgets (for notebooks)
+
+**Testing**:
+- **pytest**: Testing framework
+- **pytest-asyncio**: Async test support
 
 ## Development Notes
 
+### MCP Server
+- Server configured at **user scope** in `~/.claude.json` (not project scope)
+- Uses `llms-full-silver` Qdrant collection with 2,670 pre-indexed pages
+- Two tools: `search_docs(query, k, source)` and `list_sources()`
+- Comprehensive test coverage: 18 tests (11 in-memory, 7 HTTP) all passing
+- Performance baseline: 2.4s avg response time (local HTTP)
+
+### Data Pipeline
 - Never commit `.env` files with real API keys - only commit `.env.example` with placeholders
 - The `data/` directory structure supports a clear ETL pipeline: raw → interim → processed
 - Async operations are used for efficient parallel downloads across multiple sources
 - All scripts generate manifest.json files for tracking processing metadata and debugging
+
+### Testing
+- **In-memory tests** (`tests/test_mcp_server.py`) - Fast, zero-deployment validation
+- **HTTP tests** (`test_http_local.py`) - Network transport validation
+- Run tests before making changes to MCP server code
+- See `docs/fastmcp-promotion/WEEK1_TESTING_SUMMARY.md` for detailed results
+
+## Related Documentation
+
+- **[README.md](README.md)** - Project overview and quick start
+- **[MCP-SETUP.md](MCP-SETUP.md)** - Comprehensive MCP server reference
+- **[docs/fastmcp-promotion/](docs/fastmcp-promotion/)** - FastMCP Cloud promotion strategy
+- **[.env.example](.env.example)** - Environment variable template with security guidance
