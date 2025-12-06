@@ -1,6 +1,0 @@
-{
-  "title": "experimental",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-cli-experimental",
-  "content": "# `prefect.cli.experimental`\n\nExperimental CLI commands.\n\nThese commands provide access to experimental features that are subject to change.\n\n## Functions\n\n### `diagnose` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/cli/experimental.py#L31\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\ndiagnose()\n```\n\nDiagnose the experimental plugin system.\n\nThis command provides information about:\n\n* Whether the plugin system is enabled\n* What plugins are discoverable via entry points\n* Current configuration (timeouts, allow/deny lists)\n\nNote: This runs the plugin discovery but does not execute hooks.\nUse safe mode (PREFECT\\_EXPERIMENTS\\_PLUGINS\\_SAFE\\_MODE=1) to test plugin loading\nwithout executing hooks.",
-  "content_length": 792
-}

@@ -1,6 +1,0 @@
-{
-  "title": "utilities",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-workers-utilities",
-  "content": "# `prefect.workers.utilities`\n\n## Functions\n\n### `get_available_work_pool_types` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/workers/utilities.py#L11\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nget_available_work_pool_types() -> List[str]\n```\n\n### `get_default_base_job_template_for_infrastructure_type` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/workers/utilities.py#L32\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nget_default_base_job_template_for_infrastructure_type(infra_type: str) -> Optional[Dict[str, Any]]\n```",
-  "content_length": 709
-}

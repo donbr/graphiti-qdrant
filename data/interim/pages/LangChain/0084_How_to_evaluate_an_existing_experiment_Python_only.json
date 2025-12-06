@@ -1,6 +1,0 @@
-{
-  "title": "How to evaluate an existing experiment (Python only)",
-  "source_url": "https://docs.langchain.com/langsmith/evaluate-existing-experiment",
-  "content": "Evaluation of existing experiments is currently only supported in the Python SDK.\n\nIf you have already run an experiment and want to add additional evaluation metrics, you can apply any evaluators to the experiment using the `evaluate()` / `aevaluate()` methods as before. Just pass in the experiment name / ID instead of a target function:\n\n```python  theme={null}\nfrom langsmith import evaluate\n\ndef always_half(inputs: dict, outputs: dict) -> float:\n    return 0.5\n\nexperiment_name = \"my-experiment:abc\"  # Replace with an actual experiment name or ID\n\nevaluate(experiment_name, evaluators=[always_half])\n```\n\n***\n\n<Callout icon=\"pen-to-square\" iconType=\"regular\">\n  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/langsmith/evaluate-existing-experiment.mdx)\n</Callout>\n\n<Tip icon=\"terminal\" iconType=\"regular\">\n  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.\n</Tip>",
-  "content_length": 982
-}

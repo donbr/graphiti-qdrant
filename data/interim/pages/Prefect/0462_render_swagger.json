@@ -1,6 +1,0 @@
-{
-  "title": "render_swagger",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-utilities-render_swagger",
-  "content": "# `prefect.utilities.render_swagger`\n\n## Functions\n\n### `swagger_lib` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/utilities/render_swagger.py#L56\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nswagger_lib(config: MkDocsConfig) -> dict[str, Any]\n```\n\nProvides the actual swagger library used\n\n## Classes\n\n### `SwaggerPlugin` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/utilities/render_swagger.py#L82\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n**Methods:**\n\n#### `on_page_markdown` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/utilities/render_swagger.py#L83\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\non_page_markdown() -> Optional[str]\n```",
-  "content_length": 899
-}

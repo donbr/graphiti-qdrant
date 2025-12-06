@@ -1,6 +1,0 @@
-{
-  "title": "exceptions",
-  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-exceptions",
-  "content": "# `fastmcp.utilities.exceptions`\n\n## Functions\n\n### `iter_exc` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/utilities/exceptions.py#L12\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\niter_exc(group: BaseExceptionGroup)\n```\n\n### `get_catch_handlers` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/utilities/exceptions.py#L42\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\nget_catch_handlers() -> Mapping[type[BaseException] | Iterable[type[BaseException]], Callable[[BaseExceptionGroup[Any]], Any]]\n```",
-  "content_length": 769
-}

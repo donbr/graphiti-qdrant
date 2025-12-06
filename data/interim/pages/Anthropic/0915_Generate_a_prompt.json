@@ -1,6 +1,0 @@
-{
-  "title": "Generate a prompt",
-  "source_url": "https://docs.claude.com/en/api/prompt-tools-generate",
-  "content": "post /v1/experimental/generate_prompt\nGenerate a well-written prompt\n\n<Tip>\n  The prompt tools APIs are in a closed research preview. [Request to join the closed research preview](https://forms.gle/LajXBafpsf1SuJHp7).\n</Tip>\n\n## Before you begin\n\nThe prompt tools are a set of APIs to generate and improve prompts. Unlike our other APIs, this is an experimental API: you'll need to request access, and it doesn't have the same level of commitment to long-term support as other APIs.\n\nThese APIs are similar to what's available in the [Anthropic Workbench](https://console.anthropic.com/workbench), and are intended for use by other prompt engineering platforms and playgrounds.\n\n## Getting started with the prompt generator\n\nTo use the prompt generation API, you'll need to:\n\n1. Have joined the closed research preview for the prompt tools APIs\n2. Use the API directly, rather than the SDK\n3. Add the beta header `prompt-tools-2025-04-02`\n\n<Tip>\n  This API is not available in the SDK\n</Tip>\n\n## Generate a prompt",
-  "content_length": 1013
-}

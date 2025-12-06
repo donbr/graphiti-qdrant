@@ -1,6 +1,0 @@
-{
-  "title": "Create Work Pool",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/work-pools/create-work-pool",
-  "content": "post /api/work_pools/\nCreates a new work pool. If a work pool with the same\nname already exists, an error will be raised.\n\nFor more information, see https://docs.prefect.io/v3/concepts/work-pools.",
-  "content_length": 196
-}

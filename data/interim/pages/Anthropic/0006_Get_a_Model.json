@@ -1,6 +1,0 @@
-{
-  "title": "Get a Model",
-  "source_url": "https://docs.claude.com/en/api/models",
-  "content": "get /v1/models/{model_id}\nGet a specific model.\n\nThe Models API response can be used to determine information about a specific model or resolve a model alias to a model ID.",
-  "content_length": 172
-}

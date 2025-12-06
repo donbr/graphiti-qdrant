@@ -1,6 +1,0 @@
-{
-  "title": "Archive Workspace",
-  "source_url": "https://docs.claude.com/en/api/admin-api/workspaces/archive-workspace",
-  "content": "post /v1/organizations/workspaces/{workspace_id}/archive",
-  "content_length": 56
-}

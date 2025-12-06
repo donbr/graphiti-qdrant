@@ -1,6 +1,0 @@
-{
-  "title": "",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/cli/dashboard",
-  "content": "# `prefect dashboard`\n\n```command  theme={null}\nprefect dashboard [OPTIONS] COMMAND [ARGS]...\n```\n\n<Info>\n  Commands for interacting with the Prefect UI.\n</Info>\n\n## `prefect dashboard open`\n\n```command  theme={null}\nprefect dashboard open [OPTIONS]\n```\n\n<Info>\n  Open the Prefect UI in the browser.\n</Info>",
-  "content_length": 307
-}

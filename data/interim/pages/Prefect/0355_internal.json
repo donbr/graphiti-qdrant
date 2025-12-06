@@ -1,6 +1,0 @@
-{
-  "title": "internal",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-schemas-internal",
-  "content": "# `prefect.server.schemas.internal`\n\nSchemas for *internal* use within the Prefect server, but that would not be\nappropriate for use on the API itself.\n\n## Classes\n\n### `InternalWorkPoolUpdate` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/schemas/internal.py#L11\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>",
-  "content_length": 382
-}

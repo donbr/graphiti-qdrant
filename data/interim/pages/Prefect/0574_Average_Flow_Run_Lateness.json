@@ -1,6 +1,0 @@
-{
-  "title": "Average Flow Run Lateness",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/flow-runs/average-flow-run-lateness",
-  "content": "post /api/flow_runs/lateness\nQuery for average flow-run lateness in seconds.",
-  "content_length": 76
-}

@@ -1,6 +1,0 @@
-{
-  "title": "Read Events",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/events/read-events",
-  "content": "post /api/events/filter\nQueries for Events matching the given filter criteria in the given Account.  Returns\nthe first page of results, and the URL to request the next page (if there are more\nresults).",
-  "content_length": 201
-}

@@ -1,6 +1,0 @@
-{
-  "title": "Create Deployment Schedules",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/create-deployment-schedules",
-  "content": "post /api/deployments/{id}/schedules",
-  "content_length": 36
-}

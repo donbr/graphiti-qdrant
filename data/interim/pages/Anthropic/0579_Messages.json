@@ -1,6 +1,0 @@
-{
-  "title": "Messages",
-  "source_url": "https://docs.claude.com/en/api/messages",
-  "content": "post /v1/messages\nSend a structured list of input messages with text and/or image content, and the model will generate the next message in the conversation.\n\nThe Messages API can be used for either single queries or stateless multi-turn conversations.\n\nLearn more about the Messages API in our [user guide](/en/docs/initial-setup)",
-  "content_length": 330
-}

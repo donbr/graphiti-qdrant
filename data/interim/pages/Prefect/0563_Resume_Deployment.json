@@ -1,6 +1,0 @@
-{
-  "title": "Resume Deployment",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/resume-deployment",
-  "content": "post /api/deployments/{id}/resume_deployment\nSet a deployment schedule to active. Runs will be scheduled immediately.",
-  "content_length": 117
-}

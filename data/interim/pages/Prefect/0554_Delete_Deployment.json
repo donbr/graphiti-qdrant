@@ -1,6 +1,0 @@
-{
-  "title": "Delete Deployment",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/delete-deployment",
-  "content": "delete /api/deployments/{id}\nDelete a deployment by id.",
-  "content_length": 55
-}

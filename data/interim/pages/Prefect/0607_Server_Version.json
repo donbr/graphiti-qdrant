@@ -1,6 +1,0 @@
-{
-  "title": "Server Version",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/root/server-version",
-  "content": "get /api/version",
-  "content_length": 16
-}

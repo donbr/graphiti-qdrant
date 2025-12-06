@@ -1,6 +1,0 @@
-{
-  "title": "Count Variables",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/variables/count-variables",
-  "content": "post /api/variables/count",
-  "content_length": 25
-}

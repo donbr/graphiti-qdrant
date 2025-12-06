@@ -5,9 +5,10 @@ Split llms-full.txt files into individual pages/documents.
 Usage:
     uv run scripts-temp/split_llms_pages.py
 
-Two splitting strategies:
+Three splitting strategies:
 1. Source URL pattern: ^# .*$\nSource: (for LangChain, Anthropic, etc.)
-2. Header-only pattern: ^# (for PydanticAI - filters out code block false positives)
+2. Header-only pattern: ^# (for PydanticAI, Zep - filters out code block false positives)
+3. Multi-level pattern: ^#{1,2} (for Temporal - splits on # and ## headers)
 
 Outputs to data/interim/pages/{source}/ directory.
 """
@@ -35,12 +36,20 @@ SOURCES_HEADER_ONLY = [
     'Zep',
 ]
 
+# Sources with multi-level header pattern (split on # and ##)
+SOURCES_MULTI_LEVEL = [
+    'Temporal',
+]
+
 # Regex patterns
 # Pattern 1: # Title followed by Source: URL
 PAGE_PATTERN_WITH_URL = re.compile(r'^# (.+)$\nSource: (https?://[^\n]+)', re.MULTILINE)
 
 # Pattern 2: # Title at start of line (outside code blocks)
 PAGE_PATTERN_HEADER_ONLY = re.compile(r'^# (.+)$', re.MULTILINE)
+
+# Pattern 3: # Title OR ## Title at start of line (outside code blocks)
+PAGE_PATTERN_MULTI_LEVEL = re.compile(r'^(#{1,2})\s+(.+)$', re.MULTILINE)
 
 
 def neutralize_code_block_headers(content: str) -> str:
@@ -124,12 +133,87 @@ def split_with_header_pattern(content: str) -> list[dict]:
     return pages
 
 
-def process_source(source_name: str, use_header_only: bool = False) -> dict:
+def split_with_multi_level_pattern(content: str, levels: tuple = (1, 2)) -> list[dict]:
+    """Split content using multiple header levels (# and ##), filtering out code blocks.
+
+    Tracks parent-child hierarchy for multi-level documents.
+
+    Args:
+        content: Full text content of llms-full.txt
+        levels: Tuple of header levels to split on (default: (1, 2) for # and ##)
+
+    Returns:
+        List of page dicts with title, header_level, section_path, parent_title,
+        parent_index, source_url (None), and content
+    """
+    # Neutralize headers inside code blocks to avoid false matches
+    content_neutralized = neutralize_code_block_headers(content)
+
+    pages = []
+    matches = list(PAGE_PATTERN_MULTI_LEVEL.finditer(content_neutralized))
+
+    # Filter matches to only include specified levels
+    level_matches = []
+    for match in matches:
+        header_marker = match.group(1)  # The # or ## part
+        header_level = len(header_marker)
+        if header_level in levels:
+            level_matches.append((match, header_level))
+
+    # Track current level 1 parent for hierarchy
+    current_parent_title = None
+    current_parent_index = None
+
+    for i, (match, header_level) in enumerate(level_matches):
+        title = match.group(2).strip()  # The title text
+
+        # Extract content from neutralized version
+        content_start = match.end()
+        content_end = level_matches[i + 1][0].start() if i + 1 < len(level_matches) else len(content_neutralized)
+        page_content = content_neutralized[content_start:content_end].strip()
+
+        # Build hierarchy metadata
+        if header_level == 1:
+            # Level 1 headers are top-level sections (no parent)
+            parent_title = None
+            parent_index = None
+            section_path = title
+
+            # Update current parent for subsequent level 2 headers
+            current_parent_title = title
+            current_parent_index = i
+        else:
+            # Level 2+ headers are children of most recent level 1
+            parent_title = current_parent_title
+            parent_index = current_parent_index
+
+            if parent_title:
+                section_path = f"{parent_title} > {title}"
+            else:
+                # Edge case: level 2 header before any level 1 header
+                section_path = title
+
+        pages.append({
+            'title': title,
+            'header_level': header_level,
+            'section_path': section_path,
+            'parent_title': parent_title,
+            'parent_index': parent_index,
+            'source_url': None,  # No source URL in this format
+            'content': page_content,
+            'content_length': len(page_content),
+        })
+
+    return pages
+
+
+def process_source(source_name: str, use_header_only: bool = False, use_multi_level: bool = False) -> dict:
     """Process a single source's llms-full.txt file.
 
     Args:
         source_name: Name of the source (directory name)
         use_header_only: If True, use header-only pattern instead of URL pattern
+        use_multi_level: If True, use multi-level header pattern (# and ##)
 
     Returns:
         Dict with processing results
@@ -148,10 +232,15 @@ def process_source(source_name: str, use_header_only: bool = False) -> dict:
     content = input_path.read_text(encoding='utf-8')
 
     # Split into pages using appropriate pattern
-    if use_header_only:
+    if use_multi_level:
+        pages = split_with_multi_level_pattern(content)
+        pattern_type = 'multi_level'
+    elif use_header_only:
         pages = split_with_header_pattern(content)
+        pattern_type = 'header_only'
     else:
         pages = split_with_url_pattern(content)
+        pattern_type = 'with_url'
 
     if not pages:
         return {
@@ -177,7 +266,7 @@ def process_source(source_name: str, use_header_only: bool = False) -> dict:
     manifest = {
         'source': source_name,
         'input_file': str(input_path),
-        'pattern_type': 'header_only' if use_header_only else 'with_url',
+        'pattern_type': pattern_type,
         'page_count': len(pages),
         'total_content_chars': sum(p['content_length'] for p in pages),
         'avg_page_size': sum(p['content_length'] for p in pages) / len(pages),
@@ -185,6 +274,10 @@ def process_source(source_name: str, use_header_only: bool = False) -> dict:
             {
                 'index': i,
                 'title': p['title'],
+                'header_level': p.get('header_level'),  # Include if present
+                'section_path': p.get('section_path'),  # Include if present
+                'parent_title': p.get('parent_title'),  # Include if present
+                'parent_index': p.get('parent_index'),  # Include if present
                 'source_url': p['source_url'],
                 'content_length': p['content_length'],
             }
@@ -243,8 +336,22 @@ def main():
         else:
             print(f'✗ {result.get("error", "unknown error")}')
 
+    # Process sources with multi-level header pattern
+    print()
+    print('=== Sources with multi-level header pattern (# and ##) ===')
+    for source in SOURCES_MULTI_LEVEL:
+        print(f'Processing {source}...', end=' ')
+        result = process_source(source, use_multi_level=True)
+        results[source] = result
+
+        if result['status'] == 'success':
+            print(f'✓ {result["page_count"]} pages ({result["avg_size_chars"]:.0f} chars avg)')
+            total_pages += result['page_count']
+        else:
+            print(f'✗ {result.get("error", "unknown error")}')
+
     # Write overall manifest
-    all_sources = SOURCES_WITH_URL + SOURCES_HEADER_ONLY
+    all_sources = SOURCES_WITH_URL + SOURCES_HEADER_ONLY + SOURCES_MULTI_LEVEL
     overall_manifest = {
         'sources_processed': len([r for r in results.values() if r['status'] == 'success']),
         'total_pages': total_pages,

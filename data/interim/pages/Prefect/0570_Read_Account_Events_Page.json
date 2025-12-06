@@ -1,6 +1,0 @@
-{
-  "title": "Read Account Events Page",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/events/read-account-events-page",
-  "content": "get /api/events/filter/next\nReturns the next page of Events for a previous query against the given Account, and\nthe URL to request the next page (if there are more results).",
-  "content_length": 173
-}

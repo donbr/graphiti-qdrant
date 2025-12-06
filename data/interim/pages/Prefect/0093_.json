@@ -1,6 +1,0 @@
-{
-  "title": "",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/cli/version",
-  "content": "# `prefect version`\n\n```command  theme={null}\nprefect version [OPTIONS]\n```\n\n<Info>\n  Get the current Prefect version and integration information.\n</Info>\n\n<AccordionGroup>\n  <Accordion title=\"Options\" defaultOpen>\n    <ResponseField name=\"--omit-integrations\">\n      Omit integration information\n    </ResponseField>\n  </Accordion>\n</AccordionGroup>",
-  "content_length": 350
-}

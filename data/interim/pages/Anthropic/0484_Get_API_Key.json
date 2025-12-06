@@ -1,6 +1,0 @@
-{
-  "title": "Get API Key",
-  "source_url": "https://docs.claude.com/en/api/admin-api/apikeys/get-api-key",
-  "content": "get /v1/organizations/api_keys/{api_key_id}",
-  "content_length": 43
-}

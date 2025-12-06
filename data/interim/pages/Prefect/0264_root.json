@@ -1,6 +1,0 @@
-{
-  "title": "root",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-api-root",
-  "content": "# `prefect.server.api.root`\n\nContains the `hello` route for testing and healthcheck purposes.\n\n## Functions\n\n### `hello` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/root.py#L18\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nhello() -> str\n```\n\nSay hello!\n\n### `perform_readiness_check` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/root.py#L24\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nperform_readiness_check(db: PrefectDBInterface = Depends(provide_database_interface)) -> JSONResponse\n```",
-  "content_length": 700
-}

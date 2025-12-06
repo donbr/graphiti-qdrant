@@ -1,6 +1,0 @@
-{
-  "title": "Worker Heartbeat",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/work-pools/worker-heartbeat",
-  "content": "post /api/work_pools/{work_pool_name}/workers/heartbeat",
-  "content_length": 55
-}

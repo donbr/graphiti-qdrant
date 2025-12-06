@@ -1,6 +1,0 @@
-{
-  "title": "Kuzu DB Configuration",
-  "source_url": null,
-  "content": "> Configure Kuzu as the graph provider for Graphiti\n\nKuzu is an embedded graph engine that does not require any additional setup. You can enable the Kuzu driver by installing graphiti with the Kuzu extra:\n\n```bash\npip install graphiti-core[kuzu]\n```\n\n## Configuration\n\nSet the following environment variables for Kuzu (optional):\n\n```bash\nexport KUZU_DB=/path/to/graphiti.kuzu          # Default: :memory:\n```\n\n## Connection in Python\n\n```python\nfrom graphiti_core import Graphiti\nfrom graphiti_core.driver.kuzu_driver import KuzuDriver\n\n### Kuzu connection using KuzuDriver\nkuzu_driver = KuzuDriver(\n    db='/path/to/graphiti.kuzu'        # or os.environ.get('KUZU_DB', ':memory:')\n)\n\ngraphiti = Graphiti(graph_driver=kuzu_driver)\n```",
-  "content_length": 735
-}

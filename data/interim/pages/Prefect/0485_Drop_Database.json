@@ -1,6 +1,0 @@
-{
-  "title": "Drop Database",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/admin/drop-database",
-  "content": "post /api/admin/database/drop\nDrop all database objects.",
-  "content_length": 56
-}

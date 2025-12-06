@@ -1,6 +1,0 @@
-{
-  "title": "Delete Work Pool",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/work-pools/delete-work-pool",
-  "content": "delete /api/work_pools/{name}\nDelete a work pool",
-  "content_length": 48
-}

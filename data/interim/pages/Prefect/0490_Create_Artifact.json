@@ -1,6 +1,0 @@
-{
-  "title": "Create Artifact",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/artifacts/create-artifact",
-  "content": "post /api/artifacts/\nCreate an artifact.\n\nFor more information, see https://docs.prefect.io/v3/concepts/artifacts.",
-  "content_length": 114
-}

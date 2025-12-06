@@ -1,6 +1,0 @@
-{
-  "title": "Delete Deployment Schedule",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/delete-deployment-schedule",
-  "content": "delete /api/deployments/{id}/schedules/{schedule_id}",
-  "content_length": 52
-}

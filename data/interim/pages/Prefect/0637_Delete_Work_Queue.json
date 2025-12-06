@@ -1,6 +1,0 @@
-{
-  "title": "Delete Work Queue",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/work-pools/delete-work-queue",
-  "content": "delete /api/work_pools/{work_pool_name}/queues/{name}\nDelete a work pool queue",
-  "content_length": 78
-}

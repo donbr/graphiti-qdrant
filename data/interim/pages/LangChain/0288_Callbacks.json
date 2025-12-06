@@ -1,6 +1,0 @@
-{
-  "title": "Callbacks",
-  "source_url": "https://docs.langchain.com/oss/javascript/integrations/callbacks/index",
-  "content": "<Columns cols={3}>\n  <Card title=\"Datadog Tracer\" icon=\"link\" href=\"/oss/javascript/integrations/callbacks/datadog_tracer\" arrow=\"true\" cta=\"View guide\" />\n\n  <Card title=\"Upstash Rate Limit\" icon=\"link\" href=\"/oss/javascript/integrations/callbacks/upstash_ratelimit_callback\" arrow=\"true\" cta=\"View guide\" />\n</Columns>\n\n***\n\n<Callout icon=\"pen-to-square\" iconType=\"regular\">\n  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/javascript/integrations/callbacks/index.mdx)\n</Callout>\n\n<Tip icon=\"terminal\" iconType=\"regular\">\n  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.\n</Tip>",
-  "content_length": 696
-}

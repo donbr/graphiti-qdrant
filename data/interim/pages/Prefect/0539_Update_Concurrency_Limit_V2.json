@@ -1,6 +1,0 @@
-{
-  "title": "Update Concurrency Limit V2",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/concurrency-limits-v2/update-concurrency-limit-v2",
-  "content": "patch /api/v2/concurrency_limits/{id_or_name}",
-  "content_length": 45
-}

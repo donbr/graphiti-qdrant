@@ -1,6 +1,0 @@
-{
-  "title": "Reset Concurrency Limit By Tag",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/concurrency-limits/reset-concurrency-limit-by-tag",
-  "content": "post /api/concurrency_limits/tag/{tag}/reset",
-  "content_length": 44
-}

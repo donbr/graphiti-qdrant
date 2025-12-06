@@ -1,6 +1,0 @@
-{
-  "title": "",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/cli/task",
-  "content": "# `prefect task`\n\n```command  theme={null}\nprefect task [OPTIONS] COMMAND [ARGS]...\n```\n\n<Info>\n  Work with task scheduling.\n</Info>\n\n## `prefect task serve`\n\n```command  theme={null}\nprefect task serve [OPTIONS] [ENTRYPOINTS]...\n```\n\n<Info>\n  Serve the provided tasks so that their runs may be submitted to and\n  executed in the engine.\n</Info>\n\n<AccordionGroup>\n  <Accordion title=\"Arguments\" defaultOpen>\n    <ResponseField name=\"ENTRYPOINTS...\" type=\"string\">\n      The paths to one or more tasks, in the form of `./path/to/file.py:task_func_name`.\n    </ResponseField>\n  </Accordion>\n\n  <Accordion title=\"Options\" defaultOpen>\n    <ResponseField name=\"--module\">\n      The module(s) to import the tasks from.\n    </ResponseField>\n\n    <ResponseField name=\"--limit\">\n      The maximum number of tasks that can be run concurrently. Defaults to 10.\n    </ResponseField>\n  </Accordion>\n</AccordionGroup>",
-  "content_length": 904
-}

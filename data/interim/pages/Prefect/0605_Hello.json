@@ -1,6 +1,0 @@
-{
-  "title": "Hello",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/root/hello",
-  "content": "get /api/hello\nSay hello!",
-  "content_length": 25
-}

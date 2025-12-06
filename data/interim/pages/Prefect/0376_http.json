@@ -1,6 +1,0 @@
-{
-  "title": "http",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-utilities-http",
-  "content": "# `prefect.server.utilities.http`\n\n## Functions\n\n### `should_redact_header` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/utilities/http.py#L1\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nshould_redact_header(key: str) -> bool\n```\n\nIndicates whether an HTTP header is sensitive or noisy and should be redacted\nfrom events and templates.",
-  "content_length": 435
-}

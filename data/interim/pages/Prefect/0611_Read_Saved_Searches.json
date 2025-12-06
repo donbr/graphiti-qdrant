@@ -1,6 +1,0 @@
-{
-  "title": "Read Saved Searches",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/savedsearches/read-saved-searches",
-  "content": "post /api/saved_searches/filter\nQuery for saved searches.",
-  "content_length": 57
-}

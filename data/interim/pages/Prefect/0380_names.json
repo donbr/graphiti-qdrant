@@ -1,6 +1,0 @@
-{
-  "title": "names",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-utilities-names",
-  "content": "# `prefect.server.utilities.names`\n\nThis module is deprecated. Use `prefect.utilities.names` instead.",
-  "content_length": 101
-}

@@ -1,6 +1,0 @@
-{
-  "title": "Schedule Deployment",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/schedule-deployment",
-  "content": "post /api/deployments/{id}/schedule\nSchedule runs for a deployment. For backfills, provide start/end times in the past.\n\nThis function will generate the minimum number of runs that satisfy the min\nand max times, and the min and max counts. Specifically, the following order\nwill be respected.\n\n    - Runs will be generated starting on or after the `start_time`\n    - No more than `max_runs` runs will be generated\n    - No runs will be generated after `end_time` is reached\n    - At least `min_runs` runs will be generated\n    - Runs will be generated until at least `start_time + min_time` is reached",
-  "content_length": 601
-}

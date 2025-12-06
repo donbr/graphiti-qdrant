@@ -1,6 +1,0 @@
-{
-  "title": "Delete Automations Owned By Resource",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/automations/delete-automations-owned-by-resource",
-  "content": "delete /api/automations/owned-by/{resource_id}",
-  "content_length": 46
-}

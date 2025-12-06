@@ -1,6 +1,0 @@
-{
-  "title": "Create Work Queue",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/work-pools/create-work-queue",
-  "content": "post /api/work_pools/{work_pool_name}/queues\nCreates a new work pool queue. If a work pool queue with the same\nname already exists, an error will be raised.\n\nFor more information, see https://docs.prefect.io/v3/concepts/work-pools#work-queues.",
-  "content_length": 243
-}

@@ -1,6 +1,0 @@
-{
-  "title": "Read Block Schemas",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-schemas/read-block-schemas",
-  "content": "post /api/block_schemas/filter\nRead all block schemas, optionally filtered by type",
-  "content_length": 82
-}

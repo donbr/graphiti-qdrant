@@ -1,6 +1,0 @@
-{
-  "title": "Create Invite",
-  "source_url": "https://docs.claude.com/en/api/admin-api/invites/create-invite",
-  "content": "post /v1/organizations/invites\n\n<Tip>\n  **The Admin API is unavailable for individual accounts.** To collaborate with teammates and add members, set up your organization in **Console → Settings → Organization**.\n</Tip>",
-  "content_length": 218
-}

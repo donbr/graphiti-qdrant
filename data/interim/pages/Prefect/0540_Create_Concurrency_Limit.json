@@ -1,6 +1,0 @@
-{
-  "title": "Create Concurrency Limit",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/concurrency-limits/create-concurrency-limit",
-  "content": "post /api/concurrency_limits/\nCreate a task run concurrency limit.\n\nFor more information, see https://docs.prefect.io/v3/concepts/tag-based-concurrency-limits.",
-  "content_length": 159
-}

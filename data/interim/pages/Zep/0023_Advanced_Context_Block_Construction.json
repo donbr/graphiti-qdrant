@@ -1,6 +1,0 @@
-{
-  "title": "Advanced Context Block Construction",
-  "source_url": null,
-  "content": "<Callout intent=\"info\">\n  This guide covers building context blocks from scratch using graph search for maximum customization. See [Choosing a retrieval method](/retrieving-memory#choosing-a-retrieval-method) for a comparison of all three context retrieval approaches.\n</Callout>\n\nWhen [searching the graph](/searching-the-graph) instead of [using Zep's Context Block](/retrieving-memory#zeps-context-block), you need to use the search results to create a custom context block. In this recipe, we will demonstrate how to build a custom Context Block using the [graph search API](/searching-the-graph). We will also use the [custom entity and edge types feature](/customizing-graph-structure#custom-entity-and-edge-types), though using this feature is optional.",
-  "content_length": 760
-}

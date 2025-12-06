@@ -1,6 +1,0 @@
-{
-  "title": "background_workers",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-api-background_workers",
-  "content": "# `prefect.server.api.background_workers`\n\n## Functions\n\n### `background_worker` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/api/background_workers.py#L14\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nbackground_worker(docket: Docket) -> AsyncGenerator[None, None]\n```",
-  "content_length": 368
-}

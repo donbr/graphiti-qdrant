@@ -1,6 +1,0 @@
-{
-  "title": "Create Skill Version",
-  "source_url": "https://docs.claude.com/en/api/skills/create-skill-version",
-  "content": "post /v1/skills/{skill_id}/versions",
-  "content_length": 35
-}

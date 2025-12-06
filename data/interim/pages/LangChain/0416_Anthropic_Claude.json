@@ -1,6 +1,0 @@
-{
-  "title": "Anthropic (Claude)",
-  "source_url": "https://docs.langchain.com/oss/python/integrations/providers/anthropic",
-  "content": "This page covers all LangChain integrations with [Anthropic](https://www.anthropic.com/), the makers of Claude.\n\n## Model interfaces\n\n<Columns cols={2}>\n  <Card title=\"ChatAnthropic\" href=\"/oss/python/integrations/chat/anthropic\" cta=\"Get started\" icon=\"message\" arrow>\n    Anthropic chat models.\n  </Card>\n\n  <Card title=\"AnthropicLLM\" href=\"/oss/python/integrations/llms/anthropic\" cta=\"Get started\" icon=\"i-cursor\" arrow>\n    (Legacy) Anthropic text completion models.\n  </Card>\n</Columns>\n\n***\n\n<Callout icon=\"pen-to-square\" iconType=\"regular\">\n  [Edit the source of this page on GitHub.](https://github.com/langchain-ai/docs/edit/main/src/oss/python/integrations/providers/anthropic.mdx)\n</Callout>\n\n<Tip icon=\"terminal\" iconType=\"regular\">\n  [Connect these docs programmatically](/use-these-docs) to Claude, VSCode, and more via MCP for real-time answers.\n</Tip>",
-  "content_length": 868
-}

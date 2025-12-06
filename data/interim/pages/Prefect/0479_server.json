@@ -1,6 +1,0 @@
-{
-  "title": "server",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-workers-server",
-  "content": "# `prefect.workers.server`\n\n## Functions\n\n### `build_healthcheck_server` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/workers/server.py#L14\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nbuild_healthcheck_server(worker: BaseWorker[Any, Any, Any], query_interval_seconds: float, log_level: str = 'error') -> uvicorn.Server\n```\n\nBuild a healthcheck FastAPI server for a worker.\n\n**Args:**\n\n* `worker`: the worker whose health we will check\n* `log_level`: the log\n\n### `start_healthcheck_server` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/workers/server.py#L54\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nstart_healthcheck_server(worker: BaseWorker[Any, Any, Any], query_interval_seconds: float, log_level: str = 'error') -> None\n```\n\nRun a healthcheck FastAPI server for a worker.\n\n**Args:**\n\n* `worker`: the worker whose health we will check\n* `log_level`: the log level to use for the server",
-  "content_length": 1078
-}

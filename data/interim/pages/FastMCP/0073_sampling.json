@@ -1,6 +1,0 @@
-{
-  "title": "sampling",
-  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-sampling",
-  "content": "# `fastmcp.client.sampling`\n\n## Functions\n\n### `create_sampling_callback` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/client/sampling.py#L31\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\ncreate_sampling_callback(sampling_handler: ClientSamplingHandler[LifespanContextT]) -> SamplingFnT\n```",
-  "content_length": 426
-}

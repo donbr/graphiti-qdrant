@@ -1,6 +1,0 @@
-{
-  "title": "IP addresses",
-  "source_url": "https://docs.claude.com/en/api/ip-addresses",
-  "content": "Anthropic services use fixed IP addresses for both inbound and outbound connections. You can use these addresses to configure your firewall rules for secure access to the Claude API and Console. These addresses will not change without notice.\n\n## Inbound IP addresses\n\nThese are the IP addresses where Anthropic services receive incoming connections.\n\n#### IPv4\n\n`160.79.104.0/23`\n\n#### IPv6\n\n`2607:6bc0::/48`\n\n## Outbound IP addresses\n\nThese are the stable IP addresses that Anthropic uses for outbound requests (for example, when making MCP tool calls to external servers).\n\n#### IPv4\n\n```\n34.162.46.92\n34.162.102.82\n34.162.136.91\n34.162.142.92\n34.162.183.95\n```",
-  "content_length": 664
-}

@@ -1,6 +1,0 @@
-{
-  "title": "Create Saved Search",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/savedsearches/create-saved-search",
-  "content": "put /api/saved_searches/\nCreates a new saved search from the provided schema.\n\nIf a saved search with the same name already exists, the saved search's fields are\nreplaced.",
-  "content_length": 171
-}
