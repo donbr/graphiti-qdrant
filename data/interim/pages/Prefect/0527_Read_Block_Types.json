@@ -1,6 +1,0 @@
-{
-  "title": "Read Block Types",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-types/read-block-types",
-  "content": "post /api/block_types/filter\nGets all block types. Optionally limit return with limit and offset.",
-  "content_length": 97
-}

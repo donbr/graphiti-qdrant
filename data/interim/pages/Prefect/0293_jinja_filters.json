@@ -1,6 +1,0 @@
-{
-  "title": "jinja_filters",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-events-jinja_filters",
-  "content": "# `prefect.server.events.jinja_filters`\n\n## Functions\n\n### `ui_url` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/events/jinja_filters.py#L33\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nui_url(ctx: Mapping[str, Any], obj: Any) -> Optional[str]\n```\n\nReturn the UI URL for the given object.\n\n### `ui_resource_events_url` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/events/jinja_filters.py#L39\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nui_resource_events_url(ctx: Mapping[str, Any], obj: Any) -> Optional[str]\n```\n\nGiven a Resource or Model, return a UI link to the events page\nfiltered for that resource. If an unsupported object is provided,\nreturn `None`.\n\nCurrently supports Automation, Resource, Deployment, Flow, FlowRun, TaskRun, and\nWorkQueue objects. Within a Resource, deployment, flow, flow-run, task-run,\nand work-queue are supported.",
-  "content_length": 1047
-}

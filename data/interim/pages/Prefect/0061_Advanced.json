@@ -1,6 +1,0 @@
-{
-  "title": "Advanced",
-  "source_url": "https://docs-3.prefect.io/v3/advanced/index",
-  "content": "## Sections\n\n<CardGroup cols={3}>\n  <Card title=\"Workflows\" icon=\"play\" href=\"/v3/advanced/caching\">\n    Learn advanced workflow patterns and optimization techniques.\n  </Card>\n\n  <Card title=\"Automations\" icon=\"robot\" href=\"/v3/advanced/use-custom-event-grammar\">\n    Learn advanced patterns for working with events, triggers, and automations.\n  </Card>\n\n  <Card title=\"Workflow Infrastructure\" icon=\"city\" href=\"/v3/advanced/daemonize-processes\">\n    Learn advanced infrastructure management and deployment strategies.\n  </Card>\n\n  <Card title=\"Platform\" icon=\"server\" href=\"/v3/advanced/infrastructure-as-code\">\n    Learn advanced strategies for managing your data platform.\n  </Card>\n\n  <Card title=\"Scaling\" icon=\"square-caret-up\" href=\"/v3/advanced/self-hosted\">\n    Learn how to scale self-hosted Prefect deployments for high availability.\n  </Card>\n\n  <Card title=\"Extensibility\" icon=\"code\" href=\"/v3/advanced/api-client\">\n    Learn how to extend Prefect with custom blocks and API integrations.\n  </Card>\n</CardGroup>",
-  "content_length": 1027
-}

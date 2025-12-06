@@ -1,6 +1,0 @@
-{
-  "title": "Read Deployments",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/read-deployments",
-  "content": "post /api/deployments/filter\nQuery for deployments.",
-  "content_length": 51
-}

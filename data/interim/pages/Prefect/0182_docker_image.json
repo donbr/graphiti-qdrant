@@ -1,6 +1,0 @@
-{
-  "title": "docker_image",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-docker-docker_image",
-  "content": "# `prefect.docker.docker_image`\n\n## Classes\n\n### `DockerImage` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/docker/docker_image.py#L19\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\nConfiguration used to build and push a Docker image for a deployment.\n\n**Methods:**\n\n#### `build` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/docker/docker_image.py#L64\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nbuild(self) -> None\n```\n\n#### `push` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/docker/docker_image.py#L79\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\npush(self) -> None\n```\n\n#### `reference` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/docker/docker_image.py#L61\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nreference(self) -> str\n```",
-  "content_length": 1081
-}

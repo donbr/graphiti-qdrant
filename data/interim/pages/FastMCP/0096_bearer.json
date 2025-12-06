@@ -1,6 +1,0 @@
-{
-  "title": "bearer",
-  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-server-auth-providers-bearer",
-  "content": "# `fastmcp.server.auth.providers.bearer`\n\nBackwards compatibility shim for BearerAuthProvider.\n\nThe BearerAuthProvider class has been moved to fastmcp.server.auth.providers.jwt.JWTVerifier\nfor better organization. This module provides a backwards-compatible import.",
-  "content_length": 265
-}

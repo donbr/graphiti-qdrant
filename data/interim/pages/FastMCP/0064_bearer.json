@@ -1,6 +1,0 @@
-{
-  "title": "bearer",
-  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-client-auth-bearer",
-  "content": "# `fastmcp.client.auth.bearer`\n\n## Classes\n\n### `BearerAuth` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/client/auth/bearer.py#L11\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n**Methods:**\n\n#### `auth_flow` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/client/auth/bearer.py#L15\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\nauth_flow(self, request)\n```",
-  "content_length": 555
-}

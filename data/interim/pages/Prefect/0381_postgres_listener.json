@@ -1,6 +1,0 @@
-{
-  "title": "postgres_listener",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-utilities-postgres_listener",
-  "content": "# `prefect.server.utilities.postgres_listener`\n\n## Functions\n\n### `get_pg_notify_connection` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/utilities/postgres_listener.py#L19\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\nget_pg_notify_connection() -> Connection | None\n```\n\nEstablishes and returns a raw asyncpg connection for LISTEN/NOTIFY.\nReturns None if not a PostgreSQL connection URL.\n\n### `pg_listen` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/utilities/postgres_listener.py#L91\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={null}\npg_listen(connection: Connection, channel_name: str, heartbeat_interval: float = 5.0) -> AsyncGenerator[str, None]\n```\n\nListens to a specific Postgres channel and yields payloads.\nManages adding and removing the listener on the given connection.",
-  "content_length": 975
-}

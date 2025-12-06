@@ -1,6 +1,0 @@
-{
-  "title": "Bulk Decrement Active Slots",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/concurrency-limits-v2/bulk-decrement-active-slots",
-  "content": "post /api/v2/concurrency_limits/decrement",
-  "content_length": 41
-}

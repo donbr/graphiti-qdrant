@@ -150,6 +150,11 @@ def load_documents(
                     "title": data.get("title") or "Untitled",
                     "source_url": data.get("source_url"),
                     "content_length": data["content_length"],
+                    # Hierarchy metadata (for multi-level sources like Temporal)
+                    "header_level": data.get("header_level"),
+                    "section_path": data.get("section_path"),
+                    "parent_title": data.get("parent_title"),
+                    "parent_index": data.get("parent_index"),
                     # From manifest.json
                     "source_name": source_name,
                     "total_pages": source_manifest.get("page_count"),

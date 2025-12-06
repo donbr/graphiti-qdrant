@@ -1,6 +1,0 @@
-{
-  "title": "Install System Block Types",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-types/install-system-block-types",
-  "content": "post /api/block_types/install_system_block_types",
-  "content_length": 48
-}

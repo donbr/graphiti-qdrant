@@ -1,6 +1,0 @@
-{
-  "title": "Count Latest Artifacts",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/artifacts/count-latest-artifacts",
-  "content": "post /api/artifacts/latest/count\nCount artifacts from the database.",
-  "content_length": 67
-}

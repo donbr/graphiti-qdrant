@@ -1,6 +1,0 @@
-{
-  "title": "Create Deployment",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/create-deployment",
-  "content": "post /api/deployments/\nCreates a new deployment from the provided schema. If a deployment with\nthe same name and flow_id already exists, the deployment is updated.\n\nIf the deployment has an active schedule, flow runs will be scheduled.\nWhen upserting, any scheduled runs from the existing deployment will be deleted.\n\nFor more information, see https://docs.prefect.io/v3/concepts/deployments.",
-  "content_length": 392
-}

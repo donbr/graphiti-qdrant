@@ -1,6 +1,0 @@
-{
-  "title": "Create Block Schema",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-schemas/create-block-schema",
-  "content": "post /api/block_schemas/\nCreate a block schema.\n\nFor more information, see https://docs.prefect.io/v3/concepts/blocks.",
-  "content_length": 118
-}

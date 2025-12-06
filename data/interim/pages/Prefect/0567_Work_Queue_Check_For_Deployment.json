@@ -1,6 +1,0 @@
-{
-  "title": "Work Queue Check For Deployment",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/work-queue-check-for-deployment",
-  "content": "get /api/deployments/{id}/work_queue_check\nGet list of work-queues that are able to pick up the specified deployment.\n\nThis endpoint is intended to be used by the UI to provide users warnings\nabout deployments that are unable to be executed because there are no work\nqueues that will pick up their runs, based on existing filter criteria. It\nmay be deprecated in the future because there is not a strict relationship\nbetween work queues and deployments.",
-  "content_length": 453
-}

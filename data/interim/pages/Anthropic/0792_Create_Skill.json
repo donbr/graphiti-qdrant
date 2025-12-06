@@ -1,6 +1,0 @@
-{
-  "title": "Create Skill",
-  "source_url": "https://docs.claude.com/en/api/skills/create-skill",
-  "content": "post /v1/skills",
-  "content_length": 15
-}

@@ -1,6 +1,0 @@
-{
-  "title": "Read Available Block Capabilities",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-capabilities/read-available-block-capabilities",
-  "content": "get /api/block_capabilities/\nGet available block capabilities.\n\nFor more information, see https://docs.prefect.io/v3/concepts/blocks.",
-  "content_length": 133
-}

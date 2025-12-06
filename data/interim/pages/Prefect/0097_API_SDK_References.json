@@ -1,6 +1,0 @@
-{
-  "title": "API & SDK References",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/index",
-  "content": "Explore Prefect's auto-generated API & SDK reference documentation.\n\nPrefect auto-generates reference documentation for the following components:\n\n* **[Prefect Python SDK](/v3/api-ref/python)**: used to build, test, and execute workflows.\n* **[Prefect REST API](/v3/api-ref/rest-api)**: used by workflow clients and the Prefect UI for orchestration and data retrieval.\n  * Prefect Cloud REST API documentation: <a href=\"https://app.prefect.cloud/api/docs\" target=\"_blank\">[https://app.prefect.cloud/api/docs](https://app.prefect.cloud/api/docs)</a>.\n  * Self-hosted Prefect server [REST API documentation](/v3/api-ref/rest-api/server/). Additionally, if self-hosting a Prefect server instance, you can access REST API documentation at the `/docs` endpoint of your [`PREFECT_API_URL`](/v3/develop/settings-and-profiles/). For example, if you run `prefect server start` with no additional configuration you can find this reference at <a href=\"http://localhost:4200/docs\" target=\"_blank\">[http://localhost:4200/docs](http://localhost:4200/docs)</a>.",
-  "content_length": 1046
-}

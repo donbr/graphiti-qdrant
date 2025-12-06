@@ -1,6 +1,0 @@
-{
-  "title": "Read Latest Artifact",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/artifacts/read-latest-artifact",
-  "content": "get /api/artifacts/{key}/latest\nRetrieve the latest artifact from the artifact table.",
-  "content_length": 85
-}

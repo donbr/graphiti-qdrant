@@ -1,6 +1,0 @@
-{
-  "title": "Create a Message Batch",
-  "source_url": "https://docs.claude.com/en/api/creating-message-batches",
-  "content": "post /v1/messages/batches\nSend a batch of Message creation requests.\n\nThe Message Batches API can be used to process multiple Messages API requests at once. Once a Message Batch is created, it begins processing immediately. Batches can take up to 24 hours to complete.\n\nLearn more about the Message Batches API in our [user guide](/en/docs/build-with-claude/batch-processing)\n\n## Feature Support\n\nThe Message Batches API supports all active models. All features available in the Messages API, including beta features, are available through the Message Batches API.\n\nBatches may contain up to 100,000 requests and be up to 256 MB in total size.",
-  "content_length": 643
-}

@@ -1,6 +1,0 @@
-{
-  "title": "Read Block Schema By Id",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-schemas/read-block-schema-by-id",
-  "content": "get /api/block_schemas/{id}\nGet a block schema by id.",
-  "content_length": 53
-}

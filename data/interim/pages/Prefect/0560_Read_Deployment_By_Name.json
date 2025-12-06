@@ -1,6 +1,0 @@
-{
-  "title": "Read Deployment By Name",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/read-deployment-by-name",
-  "content": "get /api/deployments/name/{flow_name}/{deployment_name}\nGet a deployment using the name of the flow and the deployment.",
-  "content_length": 119
-}

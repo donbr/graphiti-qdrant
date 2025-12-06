@@ -1,6 +1,0 @@
-{
-  "title": "Read Concurrency Limit By Tag",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/concurrency-limits/read-concurrency-limit-by-tag",
-  "content": "get /api/concurrency_limits/tag/{tag}\nGet a concurrency limit by tag.\n\nThe `active slots` field contains a list of TaskRun IDs currently using a\nconcurrency slot for the specified tag.",
-  "content_length": 184
-}

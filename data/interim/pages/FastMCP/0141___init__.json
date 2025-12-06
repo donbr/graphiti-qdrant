@@ -1,6 +1,0 @@
-{
-  "title": "__init__",
-  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-mcp_server_config-__init__",
-  "content": "# `fastmcp.utilities.mcp_server_config`\n\nFastMCP Configuration module.\n\nThis module provides versioned configuration support for FastMCP servers.\nThe current version is v1, which is re-exported here for convenience.",
-  "content_length": 215
-}

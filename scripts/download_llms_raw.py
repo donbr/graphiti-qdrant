@@ -64,6 +64,10 @@ SOURCES = {
         'https://help.getzep.com/llms.txt',
         'https://help.getzep.com/llms-full.txt',
     ),
+    'Temporal': (
+        'https://docs.temporal.io/llms.txt',
+        'https://docs.temporal.io/llms-full.txt',
+    ),
 }
 
 # Output directory

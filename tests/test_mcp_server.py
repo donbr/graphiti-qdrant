@@ -53,14 +53,9 @@ async def test_list_sources():
     """
     Test the list_sources tool returns expected documentation sources.
 
-    Expected sources (as of 2025-11-30):
-    - Anthropic (932 docs)
-    - LangChain (506 docs)
-    - Prefect (767 docs)
-    - FastMCP (175 docs)
-    - PydanticAI (127 docs)
-    - Zep (119 docs)
-    - McpProtocol (44 docs)
+    Note: Document counts are now dynamically retrieved from Qdrant.
+    This test validates that all expected sources are present and have
+    reasonable document counts (> 0).
     """
     async with Client(mcp) as client:
         result = await client.call_tool("list_sources", {})
@@ -74,10 +69,17 @@ async def test_list_sources():
         assert "PydanticAI" in content, "PydanticAI source should be listed"
         assert "Zep" in content, "Zep source should be listed"
         assert "McpProtocol" in content, "McpProtocol source should be listed"
+        assert "Temporal" in content, "Temporal source should be listed"
 
-        # Validate document counts are mentioned
-        assert "932" in content, "Anthropic document count should be shown"
-        assert "506" in content, "LangChain document count should be shown"
+        # Validate TOTAL count is shown and reasonable
+        assert "TOTAL" in content, "Total count should be shown"
+        # Extract total from content (format: "TOTAL           4886      ")
+        import re
+        total_match = re.search(r'TOTAL\s+(\d+)', content)
+        assert total_match, "Should find TOTAL count in output"
+        total = int(total_match.group(1))
+        assert total > 4000, f"Total should be > 4000, got {total}"
+        assert total < 6000, f"Total should be < 6000, got {total}"
 
         # Validate usage example is provided
         assert "search_docs" in content, "Usage example should be included"

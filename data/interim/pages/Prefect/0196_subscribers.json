@@ -1,6 +1,0 @@
-{
-  "title": "subscribers",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-events-subscribers",
-  "content": "# `prefect.events.subscribers`\n\nFlow run subscriber that interleaves events and logs from a flow run\n\n## Classes\n\n### `FlowRunSubscriber` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/events/subscribers.py#L26\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\nSubscribes to both events and logs for a specific flow run, yielding them\nin an interleaved stream.\n\nThis subscriber combines the event stream and log stream for a flow run into\na single async iterator. When a terminal event (Completed, Failed, or Crashed)\nis received, the event subscription stops but log subscription continues for a\nconfigurable timeout to catch any straggler logs.",
-  "content_length": 708
-}

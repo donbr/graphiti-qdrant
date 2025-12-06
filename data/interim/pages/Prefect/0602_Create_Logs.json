@@ -1,6 +1,0 @@
-{
-  "title": "Create Logs",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/logs/create-logs",
-  "content": "post /api/logs/\nCreate new logs from the provided schema.\n\nFor more information, see https://docs.prefect.io/v3/how-to-guides/workflows/add-logging.",
-  "content_length": 148
-}

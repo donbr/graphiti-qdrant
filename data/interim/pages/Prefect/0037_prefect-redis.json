@@ -1,6 +1,0 @@
-{
-  "title": "prefect-redis",
-  "source_url": "https://docs-3.prefect.io/integrations/prefect-redis/index",
-  "content": "Integrations to extend Prefect's functionality with Redis.\n\n## Getting started\n\n### Install `prefect-redis`\n\nThe following command will install a version of `prefect-redis` compatible with your installed version of `prefect`.\nIf you don't already have `prefect` installed, it will install the newest version of `prefect` as well.\n\n```bash  theme={null}\npip install \"prefect[redis]\"\n```\n\nUpgrade to the latest versions of `prefect` and `prefect-redis`:\n\n```bash  theme={null}\npip install -U \"prefect[redis]\"\n```\n\n### Register newly installed block types\n\nRegister the block types in the `prefect-redis` module to make them available for use.\n\n```bash  theme={null}\nprefect block register -m prefect_redis\n```\n\n## Resources\n\nRefer to the [SDK documentation](https://reference.prefect.io/prefect_redis/) to explore all the capabilities of `prefect-redis`.",
-  "content_length": 852
-}

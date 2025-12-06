@@ -1,6 +1,0 @@
-{
-  "title": "How to access runtime information",
-  "source_url": "https://docs-3.prefect.io/v3/how-to-guides/workflows/access-runtime-info",
-  "content": "Use the `prefect.runtime` module to access runtime information from within a workflow.\n\n```python  theme={null}\nfrom prefect import flow\nfrom prefect.runtime import flow_run\n\n\n@flow\ndef moody_workflow(name: str):\n    return f\"I wish my parents had named me {name} instead of {flow_run.name}.\"\n```\n\nThe value of `flow_run.name` will change between workflow runs to match the name of the flow run.\n\n<Note>\n  **Attributes of `prefect.runtime` are `None` if a value is not available**\n\n  Attributes of `prefect.runtime` will never error when accessed. If a value is not available, the attribute will be `None`.\n\n  ```python  theme={null}\n  from prefect.runtime import flow_run\n\n  assert flow_run.name is None\n  ```\n</Note>\n\nSee the `prefect.runtime` module [reference](/v3/api-ref/python) for all available attributes.",
-  "content_length": 814
-}

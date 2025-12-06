@@ -1,6 +1,0 @@
-{
-  "title": "Update Variable",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/variables/update-variable",
-  "content": "patch /api/variables/{id}",
-  "content_length": 25
-}

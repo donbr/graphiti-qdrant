@@ -1,6 +1,0 @@
-{
-  "title": "Create Csrf Token",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/create-csrf-token",
-  "content": "get /api/csrf-token\nCreate or update a CSRF token for a client",
-  "content_length": 62
-}

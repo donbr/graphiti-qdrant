@@ -1,6 +1,0 @@
-{
-  "title": "Get Skill",
-  "source_url": "https://docs.claude.com/en/api/skills/get-skill",
-  "content": "get /v1/skills/{skill_id}",
-  "content_length": 25
-}

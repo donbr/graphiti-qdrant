@@ -1,6 +1,0 @@
-{
-  "title": "Pause Deployment",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/deployments/pause-deployment",
-  "content": "post /api/deployments/{id}/pause_deployment\nSet a deployment schedule to inactive. Any auto-scheduled runs still in a Scheduled\nstate will be deleted.",
-  "content_length": 150
-}

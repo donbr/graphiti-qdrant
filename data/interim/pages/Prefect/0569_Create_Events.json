@@ -1,6 +1,0 @@
-{
-  "title": "Create Events",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/events/create-events",
-  "content": "post /api/events\nRecord a batch of Events.\n\nFor more information, see https://docs.prefect.io/v3/concepts/events.",
-  "content_length": 113
-}

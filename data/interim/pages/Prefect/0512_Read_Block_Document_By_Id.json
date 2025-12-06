@@ -1,6 +1,0 @@
-{
-  "title": "Read Block Document By Id",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-documents/read-block-document-by-id",
-  "content": "get /api/block_documents/{id}",
-  "content_length": 29
-}

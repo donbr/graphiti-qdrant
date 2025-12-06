@@ -1,6 +1,0 @@
-{
-  "title": "Delete Flow",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/flows/delete-flow",
-  "content": "delete /api/flows/{id}\nDelete a flow by id.",
-  "content_length": 43
-}

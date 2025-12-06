@@ -1,6 +1,0 @@
-{
-  "title": "prefect-docker",
-  "source_url": "https://docs-3.prefect.io/integrations/prefect-docker/index",
-  "content": "The `prefect-docker` library is required to create deployments that will submit runs to most Prefect work pool infrastructure types.\n\n## Getting started\n\n### Prerequisites\n\n* [Docker installed](https://www.docker.com/) and running.\n\n### Install `prefect-docker`\n\nThe following command will install a version of `prefect-docker` compatible with your installed version of `prefect`.\nIf you don't already have `prefect` installed, it will install the newest version of `prefect` as well.\n\n```bash  theme={null}\npip install \"prefect[docker]\"\n```\n\nUpgrade to the latest versions of `prefect` and `prefect-docker`:\n\n```bash  theme={null}\npip install -U \"prefect[docker]\"\n```\n\n### Examples\n\nSee the Prefect [Workers docs](/v3/how-to-guides/deployment_infra/docker) to learn how to create and run deployments that use Docker.\n\n## Resources\n\nFor assistance using Docker, consult the [Docker documentation](https://docs.docker.com/).\n\nRefer to the `prefect-docker` [SDK documentation](https://reference.prefect.io/prefect_docker/) to explore all the capabilities of the `prefect-docker` library.",
-  "content_length": 1085
-}

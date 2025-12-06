@@ -1,6 +1,0 @@
-{
-  "title": "auth",
-  "source_url": "https://gofastmcp.com/python-sdk/fastmcp-utilities-auth",
-  "content": "# `fastmcp.utilities.auth`\n\nAuthentication utility helpers.\n\n## Functions\n\n### `parse_scopes` <sup><a href=\"https://github.com/jlowin/fastmcp/blob/main/src/fastmcp/utilities/auth.py#L9\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\n```python  theme={\"theme\":{\"light\":\"snazzy-light\",\"dark\":\"dark-plus\"}}\nparse_scopes(value: Any) -> list[str] | None\n```\n\nParse scopes from environment variables or settings values.\n\nAccepts either a JSON array string, a comma- or space-separated string,\na list of strings, or `None`. Returns a list of scopes or `None` if\nno value is provided.",
-  "content_length": 614
-}

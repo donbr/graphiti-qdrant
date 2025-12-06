@@ -1,6 +1,0 @@
-{
-  "title": "ui",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/python/prefect-server-schemas-ui",
-  "content": "# `prefect.server.schemas.ui`\n\nSchemas for UI endpoints.\n\n## Classes\n\n### `UITaskRun` <sup><a href=\"https://github.com/PrefectHQ/prefect/blob/main/src/prefect/server/schemas/ui.py#L8\" target=\"_blank\"><Icon icon=\"github\" style=\"width: 14px; height: 14px;\" /></a></sup>\n\nA task run with additional details for display in the UI.",
-  "content_length": 326
-}

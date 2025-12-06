@@ -139,6 +139,15 @@ def search_docs(query: str, k: int = DEFAULT_K, source: Optional[str] = None) ->
             output.append(f"Source: {metadata.get('source_name', 'Unknown')}")
             output.append(f"URL: {metadata.get('source_url', 'N/A')}")
             output.append(f"Doc ID: {metadata.get('doc_id', 'N/A')}")
+
+            # Display hierarchy metadata if present (for multi-level sources like Temporal)
+            if metadata.get('header_level') is not None:
+                output.append(f"\n--- Hierarchy ---")
+                output.append(f"Header Level: {metadata.get('header_level')}")
+                output.append(f"Section Path: {metadata.get('section_path', 'N/A')}")
+                if metadata.get('parent_title'):
+                    output.append(f"Parent: {metadata.get('parent_title')}")
+
             output.append(f"\nContent Preview ({len(doc.page_content)} chars total):")
             output.append("-" * 80)
 
@@ -167,32 +176,54 @@ def list_sources() -> str:
     Returns:
         List of available sources with document counts
     """
-    sources = {
-        "Anthropic": 932,
-        "LangChain": 506,
-        "Prefect": 767,
-        "FastMCP": 175,
-        "McpProtocol": 44,
-        "PydanticAI": 127,
-        "Zep": 119,
-    }
+    try:
+        vector_store = get_vector_store()
+        client = vector_store.client
 
-    output = ["Available Documentation Sources:\n"]
-    output.append(f"{'Source':<15} {'Documents':<10}")
-    output.append("-" * 30)
+        # Count documents by source using scroll API
+        source_counts = {}
+        offset = None
 
-    for source, count in sorted(sources.items()):
-        output.append(f"{source:<15} {count:<10}")
+        while True:
+            result = client.scroll(
+                collection_name=COLLECTION_NAME,
+                limit=100,
+                offset=offset,
+                with_payload=['metadata.source_name'],
+                with_vectors=False,
+            )
 
-    output.append("-" * 30)
-    output.append(f"{'TOTAL':<15} {sum(sources.values()):<10}")
+            points, next_offset = result
 
-    output.append(
-        "\n\nUse the 'source' parameter in search_docs() to filter by a specific source."
-    )
-    output.append("Example: search_docs('authentication', source='Anthropic')")
+            # Count documents by source
+            for point in points:
+                source = point.payload.get('metadata', {}).get('source_name', 'Unknown')
+                source_counts[source] = source_counts.get(source, 0) + 1
 
-    return "\n".join(output)
+            if next_offset is None:
+                break
+            offset = next_offset
+
+        # Format output
+        output = ["Available Documentation Sources:\n"]
+        output.append(f"{'Source':<15} {'Documents':<10}")
+        output.append("-" * 30)
+
+        for source, count in sorted(source_counts.items()):
+            output.append(f"{source:<15} {count:<10}")
+
+        output.append("-" * 30)
+        output.append(f"{'TOTAL':<15} {sum(source_counts.values()):<10}")
+
+        output.append(
+            "\n\nUse the 'source' parameter in search_docs() to filter by a specific source."
+        )
+        output.append("Example: search_docs('authentication', source='Anthropic')")
+
+        return "\n".join(output)
+
+    except Exception as e:
+        return f"Error retrieving source counts: {str(e)}"
 
 
 if __name__ == "__main__":

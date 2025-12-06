@@ -1,6 +1,0 @@
-{
-  "title": "Read Block Type By Id",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/block-types/read-block-type-by-id",
-  "content": "get /api/block_types/{id}\nGet a block type by ID.",
-  "content_length": 49
-}

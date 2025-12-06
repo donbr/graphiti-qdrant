@@ -1,6 +1,0 @@
-{
-  "title": "Read Task Run",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/task-runs/read-task-run",
-  "content": "get /api/task_runs/{id}\nGet a task run by id.",
-  "content_length": 45
-}

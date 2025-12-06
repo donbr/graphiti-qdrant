@@ -1,6 +1,0 @@
-{
-  "title": "",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/cli/init",
-  "content": "# `prefect init`\n\n```command  theme={null}\nprefect init [OPTIONS]\n```\n\n<AccordionGroup>\n  <Accordion title=\"Options\" defaultOpen>\n    <ResponseField name=\"--name\" />\n\n    <ResponseField name=\"--recipe\" />\n\n    <ResponseField name=\"-f\">\n      One or more fields to pass to the recipe (e.g., image\\_name) in the format of key=value.\n    </ResponseField>\n  </Accordion>\n</AccordionGroup>",
-  "content_length": 384
-}

@@ -1,6 +1,0 @@
-{
-  "title": "Delete Flow Run",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/flow-runs/delete-flow-run",
-  "content": "delete /api/flow_runs/{id}\nDelete a flow run by id.",
-  "content_length": 51
-}

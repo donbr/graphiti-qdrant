@@ -1,6 +1,0 @@
-{
-  "title": "Read Flow",
-  "source_url": "https://docs-3.prefect.io/v3/api-ref/rest-api/server/flows/read-flow",
-  "content": "get /api/flows/{id}\nGet a flow by id.",
-  "content_length": 37
-}
