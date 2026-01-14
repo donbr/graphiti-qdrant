@@ -9,7 +9,7 @@
       "langchain-qdrant>=1.1.0",
       "langchain-openai>=1.1.0",
       "python-dotenv>=1.0.0",
-      "fastmcp>=2.0.0"
+      "fastmcp>=2.14.0,<3"
     ]
   },
   "deployment": {
