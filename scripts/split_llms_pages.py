@@ -42,8 +42,11 @@ SOURCES_MULTI_LEVEL = [
 ]
 
 # Regex patterns
-# Pattern 1: # Title followed by Source: URL
+# Pattern 1: # Title followed by Source: URL (original format)
 PAGE_PATTERN_WITH_URL = re.compile(r'^# (.+)$\nSource: (https?://[^\n]+)', re.MULTILINE)
+
+# Pattern 1b: # Title followed by blank line then URL: (Anthropic new format)
+PAGE_PATTERN_WITH_URL_ALT = re.compile(r'^# (.+)$\n\nURL: (https?://[^\n]+)', re.MULTILINE)
 
 # Pattern 2: # Title at start of line (outside code blocks)
 PAGE_PATTERN_HEADER_ONLY = re.compile(r'^# (.+)$', re.MULTILINE)
@@ -70,7 +73,11 @@ def neutralize_code_block_headers(content: str) -> str:
 
 
 def split_with_url_pattern(content: str) -> list[dict]:
-    """Split content using # Title + Source: URL pattern.
+    """Split content using # Title + Source: URL pattern (tries multiple formats).
+
+    Supports two formats:
+    1. Original: # Title\\nSource: URL
+    2. Anthropic new: # Title\\n\\nURL: URL
 
     Args:
         content: Full text content of llms-full.txt
@@ -79,7 +86,13 @@ def split_with_url_pattern(content: str) -> list[dict]:
         List of page dicts with title, source_url, and content
     """
     pages = []
+
+    # Try original pattern first
     matches = list(PAGE_PATTERN_WITH_URL.finditer(content))
+
+    # If no matches, try alternate pattern (Anthropic format)
+    if not matches:
+        matches = list(PAGE_PATTERN_WITH_URL_ALT.finditer(content))
 
     for i, match in enumerate(matches):
         content_start = match.end()

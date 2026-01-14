@@ -45,8 +45,8 @@ SOURCES = {
         'https://docs.prefect.io/llms-full.txt',
     ),
     'Anthropic': (
-        'https://docs.anthropic.com/llms.txt',
-        'https://docs.anthropic.com/llms-full.txt',
+        'https://platform.claude.com/llms.txt',
+        'https://platform.claude.com/llms-full.txt',
     ),
     'OpenAI': (
         'https://cdn.openai.com/API/docs/txt/llms.txt',
